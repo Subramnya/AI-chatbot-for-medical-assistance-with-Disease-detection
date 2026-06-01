@@ -1,5 +1,4 @@
-# AI-chatbot-for-medical-assistance-with-Disease-detection  /  DOC Medical Assistant Chartboard
-
+# DOC Medical Assistant Chartboard
 
 DOC is a local-first prototype for a medical assistant and disease-detection style chartboard. It collects symptoms, visible findings, optional images/reports, allergies, current medicines, and extra notes, then generates a structured guidance report. It also includes a voice chat assistant and protected admin training mode.
 
@@ -9,11 +8,18 @@ DOC is a local-first prototype for a medical assistant and disease-detection sty
 
 - Landing page with the temporary product name `DOC`.
 - Manual intake flow for name, age, symptoms, visual observations, allergies, medicines, uploads, reports, and extra details.
-- Voice/text chat assistant using browser speech recognition and speech synthesis where supported.
-- Report generator with urgency flags, possible causes, first steps, restrictions, food/fluid guidance, medicine safety discussion, and medical-term explanations.
+- Voice/text chat assistant using browser speech recognition and speech synthesis where supported, with an optional local `faster-whisper` audio transcription fallback.
+- Voice-first assistant page with continuous listening, animated speech wave, user interruption handling, and upload support.
+- Python transcript parser for flexible voice answers such as one-word names, short ages, full sentences, or half sentences.
+- Report generator with urgency flags, possible causes, restrictions, food/fluid guidance, medicine table, and medical-term explanations.
 - Downloadable/printable report page.
+- Typed follow-up assistant attached to generated reports.
 - Admin-only training mode.
 - Local training data processor with text extraction, tokenization, vectorization, duplicate detection, unsafe-claim rejection, and audit logging.
+- Import script for the `sumeshverse/medical-ai-project` disease/symptom/description/precaution dataset.
+- Tiny local disease classifier that runs forward propagation and backward propagation over local condition examples.
+- Labeled vector upload support through `.data`, `.vec`, and `.vector` files.
+- Trusted online research fallback through MedlinePlus/NLM health-topic search when local vector knowledge is weak.
 - Separate trained-data views for manual/self-trained data and user-interaction learning data.
 - Internet/offline awareness banner in the browser.
 - No npm package dependencies for the current prototype.
@@ -43,6 +49,18 @@ Run smoke tests:
 npm test
 ```
 
+Optional server-side voice transcription:
+
+```bash
+pip install -r requirements-voice.txt
+```
+
+Optional dataset import after cloning `sumeshverse/medical-ai-project` into `.codex-tmp/repos/medical-ai-project`:
+
+```bash
+npm run import:medical-dataset
+```
+
 ## Project Flow
 
 1. User opens the landing page.
@@ -57,12 +75,13 @@ npm test
    - allergies and current medicines
    - optional medical reports
    - additional details
-4. Voice chat collects the same information through a conversation.
+4. Voice assistant collects the same information through continuous speech and optional uploads.
 5. Backend combines the input text and upload metadata.
 6. The local retrieval engine searches trained knowledge vectors.
-7. DOC generates a report and stores it locally.
-8. User can print, save as PDF, download HTML, or submit feedback.
-9. Feedback enters the user-learning bucket for review.
+7. If local knowledge is weak and internet is available, DOC can query trusted MedlinePlus/NLM health-topic search, tokenize the accepted result, add it to local training data, and regenerate the report.
+8. DOC generates a report and stores it locally.
+9. User can print, save as PDF, download HTML, ask typed follow-ups, or submit feedback.
+10. Feedback enters the user-learning bucket for review.
 
 ## Training Flow
 
@@ -84,16 +103,21 @@ User feedback follows a separate path. It is stored as `pending_review` so rando
 
 ## Local AI Design
 
-This prototype uses a local retrieval-plus-rules engine:
+This prototype uses a local retrieval-plus-rules engine with a tiny trainable classifier:
 
 - Tokenization: `src/training/vectorStore.js`
 - Vectorization: normalized term-frequency vectors
 - Similarity: cosine similarity
+- Forward/backward propagation classifier: `src/training/neuralTrainer.js`
 - Training ingestion: `src/training/fileProcessor.js`
+- External dataset import: `scripts/importMedicalDataset.js`
 - Report generation: `src/ai/medicalEngine.js`
 - Chat state: `src/ai/chatAssistant.js`
+- Python voice parsing: `src/voice/voice_parser.py`
+- Optional faster-whisper transcription: `src/voice/faster_whisper_transcribe.py`
+- Trusted online research: `src/training/remoteKnowledge.js`
 
-The current app does not train a neural network or fine-tune an LLM. It is structured so a future local model can be added behind the same API.
+The current app does not fine-tune an LLM. It performs local data processing, tokenization, vectorization, similarity search, trusted-source ingestion, and a small softmax classifier trained at runtime with gradient descent. It is structured so a future local embedding model or clinical model can be added behind the same API.
 
 Recommended production upgrades:
 
@@ -166,6 +190,44 @@ DOC filters medicine suggestions against obvious allergy/risk text. This is not 
 
 DOC flags emergency phrases such as chest pain, breathing difficulty, stroke signs, severe bleeding, airway swelling, seizure, or loss of consciousness.
 
+DOC also flags added red-alert patterns such as self-harm language, eye pain with vision loss, back pain with bladder/bowel symptoms, and severe dehydration or heat illness.
+
+## Voice Assistant Behavior
+
+The assistant page is now voice-first:
+
+- Press `Start continuous voice`.
+- Speak naturally.
+- DOC sends the message after you pause.
+- DOC speaks the answer back.
+- If you start speaking while DOC is talking, speech synthesis is cancelled and your voice takes priority.
+- Upload files from the side panel; they attach to the next spoken turn or can be sent with `Send uploads`.
+
+Browser support depends on the Web Speech API. Chrome/Edge usually support it best.
+
+Voice understanding uses `src/voice/voice_parser.py`, so answers do not need one exact phrase format. For example, when DOC asks for a name, `Rahul`, `my name is Rahul`, and `patient name is Rahul Kumar` are all accepted. When DOC asks age, `24`, `I am 24`, or `24 years old` are accepted.
+
+## Vector Training Files
+
+Training mode accepts `.data`, `.vec`, and `.vector` files when they contain useful labeled vector data. A raw numeric vector alone cannot be decoded into human-readable medical meaning, so include text, tokens, or a labeled vector object.
+
+Example:
+
+```json
+{
+  "title": "Fever and cough vector",
+  "category": "respiratory",
+  "text": "Fever and cough can occur with viral respiratory infection...",
+  "tokens": ["fever", "cough", "symptom", "treatment"],
+  "vector": {
+    "fever": 0.72,
+    "cough": 0.54,
+    "symptom": 0.33,
+    "treatment": 0.2
+  }
+}
+```
+
 ## Deployment Notes
 
 For simple local demo:
@@ -198,9 +260,10 @@ A `Dockerfile` is not included yet because the current project intentionally has
 
 ## Current Limitations
 
-- The app cannot browse and ingest the entire medical internet. That would be unsafe and legally risky without source filtering, licensing, quality review, and clinical governance.
+- The app does not ingest the entire medical internet. Unknown-topic fallback is limited to trusted MedlinePlus/NLM health-topic search.
 - Uploaded images are stored as supporting evidence, but no diagnostic computer vision is performed.
 - PDF, spreadsheet, and document extraction is best-effort only.
+- Raw numeric vectors without token labels or source text cannot be decoded back into reliable medical meaning.
 - User feedback is saved for review, not automatically trusted as medical truth.
 - The report engine is a prototype retrieval/rules system, not a clinically validated AI model.
 
@@ -215,6 +278,20 @@ A `Dockerfile` is not included yet because the current project intentionally has
 - MedlinePlus gastroenteritis: https://medlineplus.gov/gastroenteritis.html
 - MedlinePlus headache: https://medlineplus.gov/headache.html
 - MedlinePlus wounds and injuries: https://medlineplus.gov/woundsandinjuries.html
+- MedlinePlus asthma: https://medlineplus.gov/asthma.html
+- MedlinePlus pneumonia: https://medlineplus.gov/pneumonia.html
+- MedlinePlus urinary tract infections: https://medlineplus.gov/urinarytractinfections.html
+- MedlinePlus diabetes: https://medlineplus.gov/diabetes.html
+- MedlinePlus high blood pressure: https://medlineplus.gov/highbloodpressure.html
+- MedlinePlus back pain: https://medlineplus.gov/backpain.html
+- MedlinePlus anxiety: https://medlineplus.gov/anxiety.html
+- MedlinePlus depression: https://medlineplus.gov/depression.html
+- MedlinePlus anemia: https://medlineplus.gov/anemia.html
+- MedlinePlus sinusitis: https://medlineplus.gov/sinusitis.html
+- MedlinePlus ear infections: https://medlineplus.gov/earinfections.html
+- MedlinePlus pink eye: https://medlineplus.gov/pinkeye.html
+- MedlinePlus GERD: https://medlineplus.gov/gerd.html
+- CDC COVID-19 symptoms: https://www.cdc.gov/covid/signs-symptoms/index.html
 
 ## Rename Later
 
@@ -224,3 +301,82 @@ The temporary name is `DOC`. When the final name is ready, update:
 - `package.json` name/description
 - README title and wording
 - generated report title in `src/reports/reportRenderer.js`
+
+## Reference Flow And Code Tree
+
+```text
+User browser
+  |
+  |-- public/index.html (landing screen and main menu)
+  |-- public/app.html (manual intake form)
+  |-- public/chat.html (voice assistant screen)
+  |-- public/result.html (report viewer and feedback form)
+  |
+  v
+src/server.js (local HTTP server and API router)
+  |
+  |-- /api/report (builds and stores report from manual intake)
+  |-- /api/chat (runs voice/text assistant turn and can generate report)
+  |-- /api/voice/transcribe (optional faster-whisper audio transcription)
+  |-- /api/training/upload (admin-only training upload)
+  |-- /api/training/items (admin-only trained-data inspection)
+  |
+  v
+src/ai/medicalEngine.js (urgency, disease matching, medicine filtering, report JSON)
+  |
+  |-- src/training/vectorStore.js (raw text -> tokens -> normalized vectors -> cosine search)
+  |-- src/training/neuralTrainer.js (forward propagation + backward propagation classifier)
+  |-- src/training/fileProcessor.js (file extraction, validation, duplicate handling, training storage)
+  |-- src/training/remoteKnowledge.js (trusted MedlinePlus/NLM fallback when local knowledge is weak)
+  |
+  v
+src/reports/reportRenderer.js (turns report JSON into printable/downloadable HTML)
+```
+
+```text
+DOC project tree
+|-- package.json (run scripts and project metadata)
+|-- requirements-voice.txt (optional faster-whisper Python dependency)
+|-- scripts/
+|   `-- importMedicalDataset.js (imports disease CSVs from sumeshverse dataset repo)
+|-- src/
+|   |-- server.js (API routes, static hosting, report/session storage)
+|   |-- ai/
+|   |   |-- medicalEngine.js (condition scoring, safety rules, medicine precision filter)
+|   |   `-- chatAssistant.js (conversation state, slot filling, report trigger)
+|   |-- reports/
+|   |   `-- reportRenderer.js (report HTML with avoid/restriction section)
+|   |-- training/
+|   |   |-- vectorStore.js (training text cleanup, tokenization, vectorization, cosine search)
+|   |   |-- fileProcessor.js (upload parsing, safety validation, duplicate comparison)
+|   |   |-- neuralTrainer.js (small softmax model with forward/backward propagation)
+|   |   `-- remoteKnowledge.js (online trusted-source training fallback)
+|   |-- voice/
+|   |   |-- voice_parser.py (parses spoken text into intake fields)
+|   |   |-- transcriptionService.js (Node wrapper for faster-whisper transcription)
+|   |   `-- faster_whisper_transcribe.py (Python faster-whisper adapter)
+|   |-- utils/
+|   |   `-- persistence.js (JSON file read/write helpers and data paths)
+|   `-- tests/
+|       `-- smoke.test.js (basic training/report safety test)
+|-- public/
+|   |-- js/
+|   |   |-- shared.js (API helper, admin visibility, speech synthesis, menu behavior)
+|   |   |-- chat.js (voice assistant, Web Speech API, Whisper recording fallback)
+|   |   |-- intake.js (manual intake submission)
+|   |   |-- training.js (admin upload flow)
+|   |   |-- trained-data.js (admin trained-data viewer)
+|   |   |-- result.js (report iframe, follow-up chat, feedback)
+|   |   |-- admin.js (admin login)
+|   |   `-- index.js (landing-page helpers)
+|   |-- css/styles.css (application styling)
+|   `-- assets/medical-dashboard.svg (landing visual)
+`-- data/
+    |-- seed-medical-knowledge.json (seed and imported disease knowledge)
+    |-- reports.json (generated report history)
+    |-- sessions.json (chat sessions)
+    `-- training/
+        |-- manual-knowledge.json (active manual/seed/imported training vectors)
+        |-- user-learning.json (feedback saved for review)
+        `-- audit-log.json (training import/upload audit events)
+```

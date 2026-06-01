@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DOC - Medical Assistant</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script defer src="/js/shared.js"></script>
+    <script defer src="/js/index.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="brand-mark">D</span>
+          <span>DOC <small>medical assistant prototype</small></span>
+        </a>
+        <button class="menu-button" type="button" data-menu-open aria-label="Open menu">
+          <span class="menu-lines" aria-hidden="true"></span>
+        </button>
+      </header>
+
+      <aside class="menu-panel" data-menu-panel aria-label="Main menu">
+        <div class="menu-head">
+          <a class="brand" href="/">
+            <span class="brand-mark">D</span>
+            <span>DOC</span>
+          </a>
+          <button class="icon-button" type="button" data-menu-close aria-label="Close menu">x</button>
+        </div>
+        <nav class="menu-nav">
+          <a href="/chat.html">Chat with DOC <span>voice</span></a>
+          <a href="/app.html">Get Started <span>intake</span></a>
+          <a href="/admin-login.html">Training Mode <span>admin</span></a>
+          <a href="/trained-data.html" data-admin-only hidden>Show Trained Data <span>vectors</span></a>
+        </nav>
+      </aside>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span> Local-first health chartboard</p>
+            <h1>Hi, DOC here.</h1>
+            <p>
+              Share symptoms, visible changes, reports, allergies, and extra notes. DOC organizes them into a clear medical guidance report and keeps the conversation available through a voice assistant.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-pill" href="/chat.html">Chat with AI Assistant <span class="arrow-mark" aria-hidden="true">-&gt;</span></a>
+              <a class="button button-pill secondary" href="/app.html">Get Started <span class="arrow-mark" aria-hidden="true">-&gt;</span></a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <img src="/assets/medical-dashboard.svg" alt="">
+          </div>
+        </section>
+
+        <section class="section alt" id="how-it-works">
+          <div class="section-head">
+            <h2>How DOC Works</h2>
+            <p>One flow is manual and one is conversational. Both produce the same report format so a patient, helper, or clinician can scan the information quickly.</p>
+          </div>
+          <div class="step-grid">
+            <article class="step" data-pop="DOC asks clean questions so the final report has less confusion.">
+              <span class="step-number">1</span>
+              <h3>Tell the story</h3>
+              <p>Name, age, symptoms, visible signs, allergies, current medicines, reports, and any extra context.</p>
+            </article>
+            <article class="step" data-pop="Uploads stay as supporting evidence and can travel with the report.">
+              <span class="step-number">2</span>
+              <h3>Add files</h3>
+              <p>Images and reports are attached as supporting evidence. Visual diagnosis needs a clinician or future vision model.</p>
+            </article>
+            <article class="step" data-pop="The same report format is used for manual intake and voice interaction.">
+              <span class="step-number">3</span>
+              <h3>Generate report</h3>
+              <p>DOC searches local training data, flags red signs, explains medical terms, and builds a readable care guide.</p>
+            </article>
+            <article class="step" data-pop="Training data is tokenized, vectorized, and checked before it becomes searchable.">
+              <span class="step-number">4</span>
+              <h3>Train safely</h3>
+              <p>Admin mode can add datasets, reject duplicates or unsafe claims, and review user feedback before learning from it.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <h2>Built For Safe Triage</h2>
+            <p>DOC is not a replacement for doctors. It is built to organize information, explain likely care paths, and make urgent warning signs harder to miss.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature" data-pop="The assistant can keep listening and answer when you pause.">
+              <h3>Voice conversation</h3>
+              <p>Use browser speech recognition and speech synthesis for two-way interaction where supported.</p>
+            </article>
+            <article class="feature" data-pop="Reports can be saved, printed, or shared with a clinician.">
+              <h3>Downloadable reports</h3>
+              <p>Open, print, or download the generated report in a clean format.</p>
+            </article>
+            <article class="feature" data-pop="Vectors are kept locally so training can be inspected.">
+              <h3>Local training store</h3>
+              <p>Tokenization, vector storage, duplicate comparison, and user-learning buckets run on this machine.</p>
+            </article>
+            <article class="feature" data-pop="Unknown topics can be checked against trusted MedlinePlus search when online.">
+              <h3>Internet awareness</h3>
+              <p>If the browser reports offline status, DOC shows a connection warning while local features remain available.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="net-banner">Internet connection appears unavailable. Connect Wi-Fi or mobile data before using web-backed training or deployment features.</div>
+  </body>
+</html>

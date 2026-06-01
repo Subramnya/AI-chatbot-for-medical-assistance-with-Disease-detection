@@ -1,0 +1,231 @@
+{
+  "session-c6decf17be97c7e9": {
+    "id": "session-c6decf17be97c7e9",
+    "createdAt": "2026-05-18T16:03:32.424Z",
+    "intake": {
+      "name": "Hi",
+      "symptoms": "you can just say the number",
+      "age": "20",
+      "visuals": "nothing no visible change",
+      "allergies": "No known allergies or major medicine restrictions mentioned.",
+      "additional": "I have enough hello details add more details this not accurate i cant understand fvfvfe hello 123"
+    },
+    "messages": [
+      {
+        "role": "user",
+        "text": "hi",
+        "createdAt": "2026-05-18T16:03:32.424Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Please say the age. You can just say the number.",
+        "createdAt": "2026-05-18T16:03:32.424Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "you can just say the number",
+        "createdAt": "2026-05-18T16:03:40.497Z"
+      },
+      {
+        "role": "assistant",
+        "text": "Please say the age. You can just say the number.",
+        "createdAt": "2026-05-18T16:03:40.497Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "20",
+        "createdAt": "2026-05-18T16:03:41.490Z"
+      },
+      {
+        "role": "assistant",
+        "text": "What can you see visually? You can say swelling, redness, bruising, bleeding, rash, or say no visible change.",
+        "createdAt": "2026-05-18T16:03:41.490Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "nothing no visible change",
+        "createdAt": "2026-05-18T16:03:56.007Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:03:56.007Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "I have enough",
+        "createdAt": "2026-05-18T16:04:00.408Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:04:00.408Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "I have enough",
+        "createdAt": "2026-05-18T16:04:03.808Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:04:03.808Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "I have enough",
+        "createdAt": "2026-05-18T16:04:07.412Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:04:07.412Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "hello",
+        "createdAt": "2026-05-18T16:23:11.689Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:23:11.689Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "details",
+        "createdAt": "2026-05-18T16:23:23.477Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:23:23.477Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "add more details",
+        "createdAt": "2026-05-18T16:23:31.627Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:23:31.627Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "I have enough",
+        "createdAt": "2026-05-18T16:23:38.332Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T16:23:38.332Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "this not accurate",
+        "createdAt": "2026-05-18T17:51:06.261Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T17:51:06.261Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "i cant understand",
+        "createdAt": "2026-05-18T17:51:23.946Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T17:51:23.946Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "fvfvfe",
+        "createdAt": "2026-05-18T17:51:29.548Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-18T17:51:29.548Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "hello",
+        "createdAt": "2026-05-19T09:52:00.195Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-19T09:52:00.195Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "I have enough",
+        "createdAt": "2026-05-19T09:52:07.487Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-19T09:52:07.487Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "hello 123",
+        "createdAt": "2026-05-20T05:25:44.867Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-20T05:25:44.867Z",
+        "reportId": ""
+      },
+      {
+        "role": "user",
+        "text": "hello",
+        "createdAt": "2026-05-20T05:25:55.787Z"
+      },
+      {
+        "role": "assistant",
+        "text": "I have enough for a concise safety report. Say generate report when ready, or add more details.",
+        "createdAt": "2026-05-20T05:25:55.787Z",
+        "reportId": ""
+      }
+    ],
+    "updatedAt": "2026-05-20T05:25:55.787Z",
+    "expectedSlot": "ready",
+    "lastParse": {
+      "updates": {
+        "additional": "I have enough hello details add more details this not accurate i cant understand fvfvfe hello 123"
+      },
+      "intent": "continue",
+      "expectedSlot": "ready",
+      "understood": {
+        "name": "Hi",
+        "symptoms": "you can just say the number",
+        "age": "20",
+        "visuals": "nothing no visible change",
+        "allergies": "No known allergies or major medicine restrictions mentioned.",
+        "additional": "I have enough hello details add more details this not accurate i cant understand fvfvfe hello 123"
+      }
+    }
+  }
+}

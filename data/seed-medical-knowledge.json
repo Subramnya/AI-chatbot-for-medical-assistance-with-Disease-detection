@@ -1,0 +1,2645 @@
+[
+  {
+    "id": "seed-fracture-first-aid",
+    "source": "seed",
+    "title": "Fracture and suspected broken bone first aid",
+    "category": "injury",
+    "trusted": true,
+    "url": "https://medlineplus.gov/ency/article/000001.htm",
+    "text": "A suspected fracture or broken bone can cause severe pain, swelling, bruising, bleeding, deformity, numbness, tingling, limited movement, or inability to bear weight. Open fractures, severe bleeding, loss of circulation, blue or cold skin, head neck back hip pelvis or upper leg injury, and visible bone require urgent emergency care. First aid includes keeping the person still, covering wounds, applying cold packs through a cloth, elevating when safe, immobilizing above and below the injury, and avoiding attempts to straighten or test the bone."
+  },
+  {
+    "id": "seed-common-cold",
+    "source": "seed",
+    "title": "Common cold self-care and antibiotic safety",
+    "category": "respiratory",
+    "trusted": true,
+    "url": "https://www.cdc.gov/common-cold/treatment/index.html",
+    "text": "The common cold is usually a viral upper respiratory infection with runny nose, congestion, sore throat, cough, sneezing, mild headache, and low fever. Most people recover with rest, fluids, humidified air, saline spray, honey for adults and children over one year, and over-the-counter symptom relief when safe. Antibiotics do not treat viral colds and unnecessary antibiotics can cause side effects and antimicrobial resistance. Seek medical care for trouble breathing, chest pain, dehydration, symptoms that worsen or last unusually long, high fever, or risk factors such as immune compromise."
+  },
+  {
+    "id": "seed-fever",
+    "source": "seed",
+    "title": "Fever triage and symptom relief",
+    "category": "general",
+    "trusted": true,
+    "url": "https://medlineplus.gov/ency/article/003090.htm",
+    "text": "Fever is an elevated body temperature and can occur with infections, inflammatory illness, heat exposure, and other conditions. Supportive care can include fluids, rest, light clothing, and fever reducing medicines such as acetaminophen or ibuprofen when safe for the person. Children and teenagers should not use aspirin unless a clinician specifically instructs it. Emergency evaluation is needed for severe symptoms such as confusion, stiff neck, breathing difficulty, persistent vomiting, dehydration, seizure, rash with fever, or fever in a very young infant."
+  },
+  {
+    "id": "seed-nsaid-safety",
+    "source": "seed",
+    "title": "NSAID safety warnings",
+    "category": "medicine-safety",
+    "trusted": true,
+    "url": "https://www.fda.gov/Drugs/DrugSafety/ucm451800.htm",
+    "text": "Nonsteroidal anti-inflammatory drugs, also called NSAIDs, include ibuprofen, naproxen, and aspirin-containing products. NSAIDs can increase the risk of stomach bleeding and can increase risk of heart attack or stroke, especially in people with heart disease, high blood pressure, kidney disease, stomach ulcer or bleeding history, blood thinners, older age, pregnancy, heavy alcohol use, or prolonged use. Warning signs include vomiting blood, black or bloody stools, severe abdominal pain, chest pain, shortness of breath, weakness on one side, or slurred speech. Medicine decisions should consider allergies, age, pregnancy, kidney disease, liver disease, and current medicines."
+  },
+  {
+    "id": "seed-allergy-anaphylaxis",
+    "source": "seed",
+    "title": "Allergic reaction and anaphylaxis red flags",
+    "category": "allergy",
+    "trusted": true,
+    "url": "https://medlineplus.gov/ency/article/000005.htm",
+    "text": "Allergic reactions can include rash, itching, swelling, hives, sneezing, watery eyes, vomiting, or wheezing. Anaphylaxis is a severe allergic reaction with airway swelling, trouble breathing, wheezing, fainting, rapid worsening, throat tightness, or swelling of lips tongue or face. Anaphylaxis is an emergency and requires immediate emergency care. People with known severe allergy may be prescribed epinephrine auto-injectors by a clinician. Avoid suspected triggers and do not retry a medicine or food that caused severe symptoms without medical advice."
+  },
+  {
+    "id": "seed-chest-pain",
+    "source": "seed",
+    "title": "Chest pain emergency triage",
+    "category": "cardiac",
+    "trusted": true,
+    "url": "https://medlineplus.gov/ency/article/003079.htm",
+    "text": "Chest pain can come from heart, lung, muscle, digestive, anxiety, or other causes. Emergency care is needed for chest pressure, crushing pain, pain spreading to arm jaw back or shoulder, shortness of breath, sweating, nausea, fainting, irregular heartbeat, weakness, or chest pain with risk factors such as heart disease. Do not drive yourself to emergency care if serious heart symptoms are possible."
+  },
+  {
+    "id": "seed-gastroenteritis",
+    "source": "seed",
+    "title": "Vomiting diarrhea and dehydration care",
+    "category": "digestive",
+    "trusted": true,
+    "url": "https://medlineplus.gov/gastroenteritis.html",
+    "text": "Vomiting and diarrhea are often caused by viral gastroenteritis, foodborne illness, medicine side effects, or other infection. The main risk is dehydration. Oral rehydration solution, small frequent sips, bland foods when tolerated, and rest can help. Seek care for blood in stool or vomit, severe abdominal pain, signs of dehydration, confusion, very high fever, persistent vomiting, pregnancy, infants, older adults, or immune compromise."
+  },
+  {
+    "id": "seed-headache",
+    "source": "seed",
+    "title": "Headache and migraine red flags",
+    "category": "neurology",
+    "trusted": true,
+    "url": "https://medlineplus.gov/headache.html",
+    "text": "Headache can be tension-type, migraine, sinus-related, medicine-related, dehydration-related, or due to serious neurologic disease. Emergency red flags include sudden worst headache, headache after head injury, fever with stiff neck, confusion, seizure, fainting, weakness, vision loss, new severe headache during pregnancy, or new headache in a person with cancer or immune compromise. Self-care for non-emergency headache can include fluids, rest, avoiding triggers, and safe over-the-counter pain relief."
+  },
+  {
+    "id": "seed-wound-infection",
+    "source": "seed",
+    "title": "Wounds and infection warning signs",
+    "category": "injury",
+    "trusted": true,
+    "url": "https://medlineplus.gov/woundsandinjuries.html",
+    "text": "Cuts, scrapes, punctures, burns, and wounds need cleaning, protection, and monitoring. Warning signs of infection include increasing redness, warmth, swelling, worsening pain, pus, fever, red streaks, or delayed healing. Deep wounds, animal bites, dirty punctures, heavy bleeding, numbness, loss of function, burns, or wounds in people with diabetes or immune compromise need medical evaluation."
+  },
+  {
+    "id": "seed-asthma",
+    "source": "seed",
+    "title": "Asthma symptoms and flare safety",
+    "category": "respiratory",
+    "trusted": true,
+    "url": "https://medlineplus.gov/asthma.html",
+    "text": "Asthma is a chronic airway condition that can cause wheezing, coughing, chest tightness, and shortness of breath. Symptoms may worsen with smoke, dust, exercise, infections, cold air, or allergens. Severe breathlessness, blue lips, confusion, exhaustion, or poor response to a prescribed reliever inhaler needs urgent care. People with asthma should follow a clinician-provided action plan."
+  },
+  {
+    "id": "seed-pneumonia",
+    "source": "seed",
+    "title": "Pneumonia and lower respiratory infection warning signs",
+    "category": "respiratory",
+    "trusted": true,
+    "url": "https://medlineplus.gov/pneumonia.html",
+    "text": "Pneumonia can cause cough, fever, chills, breathing difficulty, chest discomfort, fatigue, and sometimes confusion in older adults. Medical evaluation is important for fast breathing, low oxygen, chest pain, coughing blood, older age, pregnancy, immune compromise, or symptoms that worsen. Treatment depends on the cause and may require clinician-prescribed medicines."
+  },
+  {
+    "id": "seed-uti",
+    "source": "seed",
+    "title": "Urinary tract infection symptoms and escalation",
+    "category": "urinary",
+    "trusted": true,
+    "url": "https://medlineplus.gov/urinarytractinfections.html",
+    "text": "Urinary tract infections can cause burning urination, frequent urination, urgency, cloudy or bloody urine, lower abdominal pain, and strong-smelling urine. Fever, back or flank pain, vomiting, pregnancy, diabetes, kidney disease, male sex, or recurrent symptoms need medical advice because infection can spread to the kidneys."
+  },
+  {
+    "id": "seed-diabetes",
+    "source": "seed",
+    "title": "Diabetes high and low blood sugar symptoms",
+    "category": "endocrine",
+    "trusted": true,
+    "url": "https://medlineplus.gov/diabetes.html",
+    "text": "Diabetes affects blood sugar regulation. High blood sugar can cause thirst, frequent urination, fatigue, blurred vision, slow healing, or weight change. Low blood sugar can cause sweating, shakiness, hunger, confusion, weakness, dizziness, or fainting. Severe confusion, vomiting, deep breathing, fainting, or ketones with high readings requires urgent medical care."
+  },
+  {
+    "id": "seed-hypertension",
+    "source": "seed",
+    "title": "High blood pressure and emergency symptoms",
+    "category": "cardiac",
+    "trusted": true,
+    "url": "https://medlineplus.gov/highbloodpressure.html",
+    "text": "High blood pressure often has no symptoms, but repeated high readings require clinician follow-up. Very high blood pressure with chest pain, breathing difficulty, weakness, confusion, severe headache, vision change, or neurologic symptoms may be a hypertensive emergency and needs urgent care. Do not change prescribed medicines without clinician guidance."
+  },
+  {
+    "id": "seed-back-pain",
+    "source": "seed",
+    "title": "Back pain red flags and self-care",
+    "category": "musculoskeletal",
+    "trusted": true,
+    "url": "https://medlineplus.gov/backpain.html",
+    "text": "Back pain often improves with time, gentle activity, posture care, and comfort measures. Red flags include major trauma, fever, cancer history, unexplained weight loss, leg weakness, numbness in the groin area, loss of bladder or bowel control, or inability to pass urine. These signs require urgent medical evaluation."
+  },
+  {
+    "id": "seed-anxiety",
+    "source": "seed",
+    "title": "Anxiety and panic symptoms",
+    "category": "mental-health",
+    "trusted": true,
+    "url": "https://medlineplus.gov/anxiety.html",
+    "text": "Anxiety and panic can cause intense fear, racing heart, fast breathing, chest tightness, dizziness, tingling, sweating, and trembling. New or severe chest pain, fainting, severe shortness of breath, or neurologic symptoms should not be assumed to be anxiety without medical evaluation."
+  },
+  {
+    "id": "seed-depression",
+    "source": "seed",
+    "title": "Depression and self-harm risk",
+    "category": "mental-health",
+    "trusted": true,
+    "url": "https://medlineplus.gov/depression.html",
+    "text": "Depression can include persistent sadness, loss of interest, sleep or appetite changes, guilt, low energy, poor concentration, or thoughts of death or self-harm. Active suicidal thoughts or self-harm risk is an emergency and requires immediate support from emergency services, a crisis line, or a trusted person."
+  },
+  {
+    "id": "seed-anemia",
+    "source": "seed",
+    "title": "Anemia symptoms and causes",
+    "category": "blood",
+    "trusted": true,
+    "url": "https://medlineplus.gov/anemia.html",
+    "text": "Anemia means the body does not have enough healthy red blood cells or hemoglobin. Symptoms can include fatigue, weakness, dizziness, shortness of breath with exertion, pale skin, headache, or fast heartbeat. Causes include iron deficiency, blood loss, vitamin deficiency, chronic disease, and other conditions. Testing is needed to know the cause."
+  },
+  {
+    "id": "seed-sinusitis",
+    "source": "seed",
+    "title": "Sinusitis and nasal congestion",
+    "category": "ear-nose-throat",
+    "trusted": true,
+    "url": "https://medlineplus.gov/sinusitis.html",
+    "text": "Sinusitis or sinus congestion can cause facial pressure, blocked nose, thick nasal drainage, cough, headache, and reduced smell. Many cases follow viral colds or allergies. Severe facial swelling, vision changes, high fever, severe headache, or symptoms that worsen or last unusually long should be evaluated."
+  },
+  {
+    "id": "seed-ear-infections",
+    "source": "seed",
+    "title": "Ear infection and ear pain warning signs",
+    "category": "ear-nose-throat",
+    "trusted": true,
+    "url": "https://medlineplus.gov/earinfections.html",
+    "text": "Ear infections and ear pain can cause earache, fever, hearing reduction, fluid drainage, fussiness in children, or balance symptoms. Severe pain, swelling around the ear, discharge, hearing loss, fever, young children, or recurrent symptoms need clinician evaluation. Do not insert objects into the ear canal."
+  },
+  {
+    "id": "seed-conjunctivitis",
+    "source": "seed",
+    "title": "Pink eye and red eye safety",
+    "category": "eye",
+    "trusted": true,
+    "url": "https://medlineplus.gov/pinkeye.html",
+    "text": "Conjunctivitis can cause red, itchy, watery, crusted, or discharge-producing eyes. Causes include viruses, bacteria, allergies, irritation, and contact lens problems. Eye pain, vision change, injury, severe light sensitivity, chemical exposure, or contact lens-related redness requires urgent eye care."
+  },
+  {
+    "id": "seed-gerd",
+    "source": "seed",
+    "title": "GERD heartburn and chest pain caution",
+    "category": "digestive",
+    "trusted": true,
+    "url": "https://medlineplus.gov/gerd.html",
+    "text": "Gastroesophageal reflux disease can cause heartburn, sour taste, burping, regurgitation, cough, or throat irritation. Chest pain can also come from heart disease, so crushing chest pain, pain spreading to arm jaw back or shoulder, sweating, fainting, or shortness of breath requires emergency care."
+  },
+  {
+    "id": "seed-dehydration",
+    "source": "seed",
+    "title": "Dehydration and heat illness",
+    "category": "general",
+    "trusted": true,
+    "url": "https://medlineplus.gov/dehydration.html",
+    "text": "Dehydration can cause thirst, dry mouth, dizziness, low urination, dark urine, weakness, confusion, and fast heartbeat. Vomiting, diarrhea, fever, heavy sweating, heat exposure, infants, older adults, and chronic illness raise risk. Confusion, fainting, no urination, inability to drink, or heat stroke signs need urgent care."
+  },
+  {
+    "id": "seed-covid",
+    "source": "seed",
+    "title": "COVID-19 and viral respiratory symptoms",
+    "category": "respiratory",
+    "trusted": true,
+    "url": "https://www.cdc.gov/covid/signs-symptoms/index.html",
+    "text": "COVID-19 and other viral respiratory illnesses can cause fever, cough, sore throat, runny nose, body aches, fatigue, headache, loss of smell or taste, nausea, vomiting, or diarrhea. Emergency warning signs include trouble breathing, persistent chest pain or pressure, confusion, inability to wake, pale gray or blue skin lips or nail beds, dehydration, or worsening symptoms."
+  },
+  {
+    "id": "dataset-sumeshverse-fungal-infection",
+    "source": "seed",
+    "title": "Fungal infection imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Fungal infection. Description: In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi. Symptoms linked in the imported dataset: dischromic patches, itching, nodal skin eruptions, skin rash. Symptom severity weights: dischromic patches severity 6; itching severity 1; nodal skin eruptions severity 4; skin rash severity 3. Source precautions: bath twice; use detol or neem in bathing water; keep infected area dry; use clean cloths. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Fungal infection",
+      "symptoms": [
+        "dischromic patches",
+        "itching",
+        "nodal skin eruptions",
+        "skin rash"
+      ],
+      "precautions": [
+        "bath twice",
+        "use detol or neem in bathing water",
+        "keep infected area dry",
+        "use clean cloths"
+      ],
+      "severity": {
+        "dischromic patches": 6,
+        "itching": 1,
+        "nodal skin eruptions": 4,
+        "skin rash": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.860Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.1174,
+        "matchedTitle": "Anemia symptoms and causes"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-allergy",
+    "source": "seed",
+    "title": "Allergy imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Allergy. Description: An allergy is an immune system response to a foreign substance that's not typically harmful to your body.They can include certain foods, pollen, or pet dander. Your immune system's job is to keep you healthy by fighting harmful pathogens. Symptoms linked in the imported dataset: chills, continuous sneezing, shivering, watering from eyes. Symptom severity weights: chills severity 3; continuous sneezing severity 4; shivering severity 5; watering from eyes severity 4. Source precautions: apply calamine; cover area with bandage; use ice to compress itching. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Allergy",
+      "symptoms": [
+        "chills",
+        "continuous sneezing",
+        "shivering",
+        "watering from eyes"
+      ],
+      "precautions": [
+        "apply calamine",
+        "cover area with bandage",
+        "use ice to compress itching"
+      ],
+      "severity": {
+        "chills": 3,
+        "continuous sneezing": 4,
+        "shivering": 5,
+        "watering from eyes": 4
+      },
+      "createdAt": "2026-05-22T14:02:40.863Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.4853,
+        "matchedTitle": "Fungal infection imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-gerd",
+    "source": "seed",
+    "title": "GERD imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: GERD. Description: Gastroesophageal reflux disease, or GERD, is a digestive disorder that affects the lower esophageal sphincter (LES), the ring of muscle between the esophagus and stomach. Many people, including pregnant women, suffer from heartburn or acid indigestion caused by GERD. Symptoms linked in the imported dataset: acidity, chest pain, cough, stomach pain, ulcers on tongue, vomiting. Symptom severity weights: acidity severity 3; chest pain severity 7; cough severity 4; stomach pain severity 5; ulcers on tongue severity 4; vomiting severity 5. Source precautions: avoid fatty spicy food; avoid lying down after eating; maintain healthy weight; exercise. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "GERD",
+      "symptoms": [
+        "acidity",
+        "chest pain",
+        "cough",
+        "stomach pain",
+        "ulcers on tongue",
+        "vomiting"
+      ],
+      "precautions": [
+        "avoid fatty spicy food",
+        "avoid lying down after eating",
+        "maintain healthy weight",
+        "exercise"
+      ],
+      "severity": {
+        "acidity": 3,
+        "chest pain": 7,
+        "cough": 4,
+        "stomach pain": 5,
+        "ulcers on tongue": 4,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.863Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.4646,
+        "matchedTitle": "Allergy imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-chronic-cholestasis",
+    "source": "seed",
+    "title": "Chronic cholestasis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Chronic cholestasis. Description: Chronic cholestatic diseases, whether occurring in infancy, childhood or adulthood, are characterized by defective bile acid transport from the liver to the intestine, which is caused by primary damage to the biliary epithelium in most cases Symptoms linked in the imported dataset: abdominal pain, itching, loss of appetite, nausea, vomiting, yellowing of eyes, yellowish skin. Symptom severity weights: abdominal pain severity 4; itching severity 1; loss of appetite severity 4; nausea severity 5; vomiting severity 5; yellowing of eyes severity 4; yellowish skin severity 3. Source precautions: cold baths; anti itch medicine; consult doctor; eat healthy. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Chronic cholestasis",
+      "symptoms": [
+        "abdominal pain",
+        "itching",
+        "loss of appetite",
+        "nausea",
+        "vomiting",
+        "yellowing of eyes",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "cold baths",
+        "anti itch medicine",
+        "consult doctor",
+        "eat healthy"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "itching": 1,
+        "loss of appetite": 4,
+        "nausea": 5,
+        "vomiting": 5,
+        "yellowing of eyes": 4,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.864Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.586,
+        "matchedTitle": "GERD imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-drug-reaction",
+    "source": "seed",
+    "title": "Drug Reaction imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Drug Reaction. Description: An adverse drug reaction (ADR) is an injury caused by taking medication. ADRs may occur following a single dose or prolonged administration of a drug or result from the combination of two or more drugs. Symptoms linked in the imported dataset: burning micturition, itching, skin rash, spotting urination, stomach pain. Symptom severity weights: burning micturition severity 6; itching severity 1; skin rash severity 3; spotting urination severity 6; stomach pain severity 5. Source precautions: stop irritation; consult nearest hospital; stop taking drug; follow up. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Drug Reaction",
+      "symptoms": [
+        "burning micturition",
+        "itching",
+        "skin rash",
+        "spotting urination",
+        "stomach pain"
+      ],
+      "precautions": [
+        "stop irritation",
+        "consult nearest hospital",
+        "stop taking drug",
+        "follow up"
+      ],
+      "severity": {
+        "burning micturition": 6,
+        "itching": 1,
+        "skin rash": 3,
+        "spotting urination": 6,
+        "stomach pain": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.864Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5702,
+        "matchedTitle": "Chronic cholestasis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-peptic-ulcer-diseae",
+    "source": "seed",
+    "title": "Peptic ulcer diseae imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Peptic ulcer diseae. Description: Peptic ulcer disease (PUD) is a break in the inner lining of the stomach, the first part of the small intestine, or sometimes the lower esophagus. An ulcer in the stomach is called a gastric ulcer, while one in the first part of the intestines is a duodenal ulcer. Symptoms linked in the imported dataset: abdominal pain, indigestion, internal itching, loss of appetite, passage of gases, vomiting. Symptom severity weights: abdominal pain severity 4; indigestion severity 5; internal itching severity 4; loss of appetite severity 4; passage of gases severity 5; vomiting severity 5. Source precautions: avoid fatty spicy food; consume probiotic food; eliminate milk; limit alcohol. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Peptic ulcer diseae",
+      "symptoms": [
+        "abdominal pain",
+        "indigestion",
+        "internal itching",
+        "loss of appetite",
+        "passage of gases",
+        "vomiting"
+      ],
+      "precautions": [
+        "avoid fatty spicy food",
+        "consume probiotic food",
+        "eliminate milk",
+        "limit alcohol"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "indigestion": 5,
+        "internal itching": 4,
+        "loss of appetite": 4,
+        "passage of gases": 5,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.864Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6187,
+        "matchedTitle": "Chronic cholestasis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-aids",
+    "source": "seed",
+    "title": "AIDS imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: AIDS. Description: Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease. Symptoms linked in the imported dataset: extra marital contacts, high fever, muscle wasting, patches in throat. Symptom severity weights: extra marital contacts severity 5; high fever severity 7; muscle wasting severity 3; patches in throat severity 6. Source precautions: avoid open cuts; wear ppe if possible; consult doctor; follow up. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "AIDS",
+      "symptoms": [
+        "extra marital contacts",
+        "high fever",
+        "muscle wasting",
+        "patches in throat"
+      ],
+      "precautions": [
+        "avoid open cuts",
+        "wear ppe if possible",
+        "consult doctor",
+        "follow up"
+      ],
+      "severity": {
+        "extra marital contacts": 5,
+        "high fever": 7,
+        "muscle wasting": 3,
+        "patches in throat": 6
+      },
+      "createdAt": "2026-05-22T14:02:40.864Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5094,
+        "matchedTitle": "Chronic cholestasis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-diabetes",
+    "source": "seed",
+    "title": "Diabetes imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Diabetes. Description: Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Symptoms linked in the imported dataset: blurred and distorted vision, excessive hunger, fatigue, increased appetite, irregular sugar level, lethargy, obesity, polyuria, restlessness, weight loss. Symptom severity weights: blurred and distorted vision severity 5; excessive hunger severity 4; fatigue severity 4; increased appetite severity 5; irregular sugar level severity 5; lethargy severity 2; obesity severity 4; polyuria severity 4; restlessness severity 5; weight loss severity 3. Source precautions: have balanced diet; exercise; consult doctor; follow up. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Diabetes",
+      "symptoms": [
+        "blurred and distorted vision",
+        "excessive hunger",
+        "fatigue",
+        "increased appetite",
+        "irregular sugar level",
+        "lethargy",
+        "obesity",
+        "polyuria",
+        "restlessness",
+        "weight loss"
+      ],
+      "precautions": [
+        "have balanced diet",
+        "exercise",
+        "consult doctor",
+        "follow up"
+      ],
+      "severity": {
+        "blurred and distorted vision": 5,
+        "excessive hunger": 4,
+        "fatigue": 4,
+        "increased appetite": 5,
+        "irregular sugar level": 5,
+        "lethargy": 2,
+        "obesity": 4,
+        "polyuria": 4,
+        "restlessness": 5,
+        "weight loss": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.864Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5987,
+        "matchedTitle": "Chronic cholestasis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-gastroenteritis",
+    "source": "seed",
+    "title": "Gastroenteritis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Gastroenteritis. Description: Gastroenteritis is an inflammation of the digestive tract, particularly the stomach, and large and small intestines. Viral and bacterial gastroenteritis are intestinal infections associated with symptoms of diarrhea , abdominal cramps, nausea , and vomiting . Symptoms linked in the imported dataset: dehydration, diarrhoea, sunken eyes, vomiting. Symptom severity weights: dehydration severity 4; diarrhoea severity 6; sunken eyes severity 3; vomiting severity 5. Source precautions: stop eating solid food for while; try taking small sips of water; rest; ease back into eating. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Gastroenteritis",
+      "symptoms": [
+        "dehydration",
+        "diarrhoea",
+        "sunken eyes",
+        "vomiting"
+      ],
+      "precautions": [
+        "stop eating solid food for while",
+        "try taking small sips of water",
+        "rest",
+        "ease back into eating"
+      ],
+      "severity": {
+        "dehydration": 4,
+        "diarrhoea": 6,
+        "sunken eyes": 3,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.864Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.579,
+        "matchedTitle": "Chronic cholestasis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-bronchial-asthma",
+    "source": "seed",
+    "title": "Bronchial Asthma imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Bronchial Asthma. Description: Bronchial asthma is a medical condition which causes the airway path of the lungs to swell and narrow. Due to this swelling, the air path produces excess mucus making it hard to breathe, which results in coughing, short breath, and wheezing. The disease is chronic and interferes with daily working. Symptoms linked in the imported dataset: breathlessness, cough, family history, fatigue, high fever, mucoid sputum. Symptom severity weights: breathlessness severity 4; cough severity 4; family history severity 5; fatigue severity 4; high fever severity 7; mucoid sputum severity 4. Source precautions: switch to loose cloothing; take deep breaths; get away from trigger; seek help. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Bronchial Asthma",
+      "symptoms": [
+        "breathlessness",
+        "cough",
+        "family history",
+        "fatigue",
+        "high fever",
+        "mucoid sputum"
+      ],
+      "precautions": [
+        "switch to loose cloothing",
+        "take deep breaths",
+        "get away from trigger",
+        "seek help"
+      ],
+      "severity": {
+        "breathlessness": 4,
+        "cough": 4,
+        "family history": 5,
+        "fatigue": 4,
+        "high fever": 7,
+        "mucoid sputum": 4
+      },
+      "createdAt": "2026-05-22T14:02:40.864Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5513,
+        "matchedTitle": "Diabetes imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hypertension",
+    "source": "seed",
+    "title": "Hypertension imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hypertension. Description: Hypertension (HTN or HT), also known as high blood pressure (HBP), is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. High blood pressure typically does not cause symptoms. Symptoms linked in the imported dataset: chest pain, dizziness, headache, lack of concentration, loss of balance. Symptom severity weights: chest pain severity 7; dizziness severity 4; headache severity 3; lack of concentration severity 3; loss of balance severity 4. Source precautions: meditation; salt baths; reduce stress; get proper sleep. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hypertension",
+      "symptoms": [
+        "chest pain",
+        "dizziness",
+        "headache",
+        "lack of concentration",
+        "loss of balance"
+      ],
+      "precautions": [
+        "meditation",
+        "salt baths",
+        "reduce stress",
+        "get proper sleep"
+      ],
+      "severity": {
+        "chest pain": 7,
+        "dizziness": 4,
+        "headache": 3,
+        "lack of concentration": 3,
+        "loss of balance": 4
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5708,
+        "matchedTitle": "Diabetes imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-migraine",
+    "source": "seed",
+    "title": "Migraine imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Migraine. Description: A migraine can cause severe throbbing pain or a pulsing sensation, usually on one side of the head. It's often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraine attacks can last for hours to days, and the pain can be so severe that it interferes with your daily activities. Symptoms linked in the imported dataset: acidity, blurred and distorted vision, depression, excessive hunger, headache, indigestion, irritability, stiff neck, visual disturbances. Symptom severity weights: acidity severity 3; blurred and distorted vision severity 5; depression severity 3; excessive hunger severity 4; headache severity 3; indigestion severity 5; irritability severity 2; stiff neck severity 4; visual disturbances severity 3. Source precautions: meditation; reduce stress; use poloroid glasses in sun; consult doctor. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Migraine",
+      "symptoms": [
+        "acidity",
+        "blurred and distorted vision",
+        "depression",
+        "excessive hunger",
+        "headache",
+        "indigestion",
+        "irritability",
+        "stiff neck",
+        "visual disturbances"
+      ],
+      "precautions": [
+        "meditation",
+        "reduce stress",
+        "use poloroid glasses in sun",
+        "consult doctor"
+      ],
+      "severity": {
+        "acidity": 3,
+        "blurred and distorted vision": 5,
+        "depression": 3,
+        "excessive hunger": 4,
+        "headache": 3,
+        "indigestion": 5,
+        "irritability": 2,
+        "stiff neck": 4,
+        "visual disturbances": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6423,
+        "matchedTitle": "Diabetes imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-cervical-spondylosis",
+    "source": "seed",
+    "title": "Cervical spondylosis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Cervical spondylosis. Description: Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop, including bony projections along the edges of bones (bone spurs). Symptoms linked in the imported dataset: back pain, dizziness, loss of balance, neck pain, weakness in limbs. Symptom severity weights: back pain severity 3; dizziness severity 4; loss of balance severity 4; neck pain severity 5; weakness in limbs severity 7. Source precautions: use heating pad or cold pack; exercise; take otc pain reliver; consult doctor. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Cervical spondylosis",
+      "symptoms": [
+        "back pain",
+        "dizziness",
+        "loss of balance",
+        "neck pain",
+        "weakness in limbs"
+      ],
+      "precautions": [
+        "use heating pad or cold pack",
+        "exercise",
+        "take otc pain reliver",
+        "consult doctor"
+      ],
+      "severity": {
+        "back pain": 3,
+        "dizziness": 4,
+        "loss of balance": 4,
+        "neck pain": 5,
+        "weakness in limbs": 7
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5723,
+        "matchedTitle": "Hypertension imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-paralysis-brain-hemorrhage",
+    "source": "seed",
+    "title": "Paralysis (brain hemorrhage) imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Paralysis (brain hemorrhage). Description: Intracerebral hemorrhage (ICH) is when blood suddenly bursts into brain tissue, causing damage to your brain. Symptoms usually appear suddenly during ICH. They include headache, weakness, confusion, and paralysis, particularly on one side of your body. Symptoms linked in the imported dataset: altered sensorium, headache, vomiting, weakness of one body side. Symptom severity weights: altered sensorium severity 2; headache severity 3; vomiting severity 5; weakness of one body side severity 4. Source precautions: massage; eat healthy; exercise; consult doctor. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Paralysis (brain hemorrhage)",
+      "symptoms": [
+        "altered sensorium",
+        "headache",
+        "vomiting",
+        "weakness of one body side"
+      ],
+      "precautions": [
+        "massage",
+        "eat healthy",
+        "exercise",
+        "consult doctor"
+      ],
+      "severity": {
+        "altered sensorium": 2,
+        "headache": 3,
+        "vomiting": 5,
+        "weakness of one body side": 4
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5116,
+        "matchedTitle": "Migraine imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-jaundice",
+    "source": "seed",
+    "title": "Jaundice imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Jaundice. Description: Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the \"morbus regius\" (the regal disease) in the belief that only the touch of a king could cure it Symptoms linked in the imported dataset: abdominal pain, dark urine, fatigue, high fever, itching, vomiting, weight loss, yellowish skin. Symptom severity weights: abdominal pain severity 4; dark urine severity 4; fatigue severity 4; high fever severity 7; itching severity 1; vomiting severity 5; weight loss severity 3; yellowish skin severity 3. Source precautions: drink plenty of water; consume milk thistle; eat fruits and high fiberous food; medication. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Jaundice",
+      "symptoms": [
+        "abdominal pain",
+        "dark urine",
+        "fatigue",
+        "high fever",
+        "itching",
+        "vomiting",
+        "weight loss",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "drink plenty of water",
+        "consume milk thistle",
+        "eat fruits and high fiberous food",
+        "medication"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "dark urine": 4,
+        "fatigue": 4,
+        "high fever": 7,
+        "itching": 1,
+        "vomiting": 5,
+        "weight loss": 3,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.7093,
+        "matchedTitle": "Chronic cholestasis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-malaria",
+    "source": "seed",
+    "title": "Malaria imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Malaria. Description: An infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion. Falciparum malaria is the most deadly type. Symptoms linked in the imported dataset: chills, diarrhoea, headache, high fever, muscle pain, nausea, sweating, vomiting. Symptom severity weights: chills severity 3; diarrhoea severity 6; headache severity 3; high fever severity 7; muscle pain severity 2; nausea severity 5; sweating severity 3; vomiting severity 5. Source precautions: Consult nearest hospital; avoid oily food; avoid non veg food; keep mosquitos out. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Malaria",
+      "symptoms": [
+        "chills",
+        "diarrhoea",
+        "headache",
+        "high fever",
+        "muscle pain",
+        "nausea",
+        "sweating",
+        "vomiting"
+      ],
+      "precautions": [
+        "Consult nearest hospital",
+        "avoid oily food",
+        "avoid non veg food",
+        "keep mosquitos out"
+      ],
+      "severity": {
+        "chills": 3,
+        "diarrhoea": 6,
+        "headache": 3,
+        "high fever": 7,
+        "muscle pain": 2,
+        "nausea": 5,
+        "sweating": 3,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6595,
+        "matchedTitle": "Jaundice imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-chicken-pox",
+    "source": "seed",
+    "title": "Chicken pox imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Chicken pox. Description: Chickenpox is a highly contagious disease caused by the varicella-zoster virus (VZV). It can cause an itchy, blister-like rash. The rash first appears on the chest, back, and face, and then spreads over the entire body, causing between 250 and 500 itchy blisters. Symptoms linked in the imported dataset: fatigue, headache, high fever, itching, lethargy, loss of appetite, malaise, mild fever, red spots over body, skin rash, swelled lymph nodes. Symptom severity weights: fatigue severity 4; headache severity 3; high fever severity 7; itching severity 1; lethargy severity 2; loss of appetite severity 4; malaise severity 6; mild fever severity 5; red spots over body severity 3; skin rash severity 3; swelled lymph nodes severity 6. Source precautions: use neem in bathing; consume neem leaves; take vaccine; avoid public places. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Chicken pox",
+      "symptoms": [
+        "fatigue",
+        "headache",
+        "high fever",
+        "itching",
+        "lethargy",
+        "loss of appetite",
+        "malaise",
+        "mild fever",
+        "red spots over body",
+        "skin rash",
+        "swelled lymph nodes"
+      ],
+      "precautions": [
+        "use neem in bathing",
+        "consume neem leaves",
+        "take vaccine",
+        "avoid public places"
+      ],
+      "severity": {
+        "fatigue": 4,
+        "headache": 3,
+        "high fever": 7,
+        "itching": 1,
+        "lethargy": 2,
+        "loss of appetite": 4,
+        "malaise": 6,
+        "mild fever": 5,
+        "red spots over body": 3,
+        "skin rash": 3,
+        "swelled lymph nodes": 6
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6641,
+        "matchedTitle": "Jaundice imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-dengue",
+    "source": "seed",
+    "title": "Dengue imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Dengue. Description: an acute infectious disease caused by a flavivirus (species Dengue virus of the genus Flavivirus), transmitted by aedes mosquitoes, and characterized by headache, severe joint pain, and a rash. — called also breakbone fever, dengue fever. Symptoms linked in the imported dataset: back pain, chills, fatigue, headache, high fever, joint pain, loss of appetite, malaise, muscle pain, nausea, pain behind the eyes, red spots over body, skin rash, vomiting. Symptom severity weights: back pain severity 3; chills severity 3; fatigue severity 4; headache severity 3; high fever severity 7; joint pain severity 3; loss of appetite severity 4; malaise severity 6; muscle pain severity 2; nausea severity 5; pain behind the eyes severity 4; red spots over body severity 3; skin rash severity 3; vomiting severity 5. Source precautions: drink papaya leaf juice; avoid fatty spicy food; keep mosquitos away; keep hydrated. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Dengue",
+      "symptoms": [
+        "back pain",
+        "chills",
+        "fatigue",
+        "headache",
+        "high fever",
+        "joint pain",
+        "loss of appetite",
+        "malaise",
+        "muscle pain",
+        "nausea",
+        "pain behind the eyes",
+        "red spots over body",
+        "skin rash",
+        "vomiting"
+      ],
+      "precautions": [
+        "drink papaya leaf juice",
+        "avoid fatty spicy food",
+        "keep mosquitos away",
+        "keep hydrated"
+      ],
+      "severity": {
+        "back pain": 3,
+        "chills": 3,
+        "fatigue": 4,
+        "headache": 3,
+        "high fever": 7,
+        "joint pain": 3,
+        "loss of appetite": 4,
+        "malaise": 6,
+        "muscle pain": 2,
+        "nausea": 5,
+        "pain behind the eyes": 4,
+        "red spots over body": 3,
+        "skin rash": 3,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.865Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.7502,
+        "matchedTitle": "Malaria imported disease profile",
+        "newTokens": [
+          "dengue",
+          "acute",
+          "flavivirus",
+          "species",
+          "virus",
+          "genus",
+          "aedes",
+          "mosquitoes",
+          "characterized",
+          "severe",
+          "joint",
+          "rash",
+          "called",
+          "breakbone",
+          "back",
+          "fatigue",
+          "loss",
+          "appetite",
+          "malaise",
+          "behind",
+          "eyes",
+          "red",
+          "spots",
+          "over",
+          "body"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-typhoid",
+    "source": "seed",
+    "title": "Typhoid imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Typhoid. Description: An acute illness characterized by fever caused by infection with the bacterium Salmonella typhi. Typhoid fever has an insidious onset, with fever, headache, constipation, malaise, chills, and muscle pain. Diarrhea is uncommon, and vomiting is not usually severe. Symptoms linked in the imported dataset: abdominal pain, belly pain, chills, constipation, diarrhoea, fatigue, headache, high fever, nausea, toxic look (typhos), vomiting. Symptom severity weights: abdominal pain severity 4; belly pain severity 4; chills severity 3; constipation severity 4; diarrhoea severity 6; fatigue severity 4; headache severity 3; high fever severity 7; nausea severity 5; toxic look (typhos) severity 5; vomiting severity 5. Source precautions: eat high calorie vegitables; antiboitic therapy; consult doctor; medication. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Typhoid",
+      "symptoms": [
+        "abdominal pain",
+        "belly pain",
+        "chills",
+        "constipation",
+        "diarrhoea",
+        "fatigue",
+        "headache",
+        "high fever",
+        "nausea",
+        "toxic look (typhos)",
+        "vomiting"
+      ],
+      "precautions": [
+        "eat high calorie vegitables",
+        "antiboitic therapy",
+        "consult doctor",
+        "medication"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "belly pain": 4,
+        "chills": 3,
+        "constipation": 4,
+        "diarrhoea": 6,
+        "fatigue": 4,
+        "headache": 3,
+        "high fever": 7,
+        "nausea": 5,
+        "toxic look (typhos)": 5,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.866Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.7946,
+        "matchedTitle": "Dengue imported disease profile",
+        "newTokens": [
+          "typhoid",
+          "illness",
+          "infection",
+          "bacterium",
+          "salmonella",
+          "typhi",
+          "insidious",
+          "onset",
+          "constipation",
+          "diarrhea",
+          "uncommon",
+          "usually",
+          "abdominal",
+          "belly",
+          "diarrhoea",
+          "toxic",
+          "look",
+          "typhos",
+          "eat",
+          "calorie",
+          "vegitables",
+          "antiboitic",
+          "therapy",
+          "consult",
+          "doctor"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hepatitis-a",
+    "source": "seed",
+    "title": "hepatitis A imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: hepatitis A. Description: Hepatitis A is a highly contagious liver infection caused by the hepatitis A virus. The virus is one of several types of hepatitis viruses that cause inflammation and affect your liver's ability to function. Symptoms linked in the imported dataset: abdominal pain, dark urine, diarrhoea, joint pain, loss of appetite, mild fever, muscle pain, nausea, vomiting, yellowing of eyes, yellowish skin. Symptom severity weights: abdominal pain severity 4; dark urine severity 4; diarrhoea severity 6; joint pain severity 3; loss of appetite severity 4; mild fever severity 5; muscle pain severity 2; nausea severity 5; vomiting severity 5; yellowing of eyes severity 4; yellowish skin severity 3. Source precautions: Consult nearest hospital; wash hands through; avoid fatty spicy food; medication. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "hepatitis A",
+      "symptoms": [
+        "abdominal pain",
+        "dark urine",
+        "diarrhoea",
+        "joint pain",
+        "loss of appetite",
+        "mild fever",
+        "muscle pain",
+        "nausea",
+        "vomiting",
+        "yellowing of eyes",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "Consult nearest hospital",
+        "wash hands through",
+        "avoid fatty spicy food",
+        "medication"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "dark urine": 4,
+        "diarrhoea": 6,
+        "joint pain": 3,
+        "loss of appetite": 4,
+        "mild fever": 5,
+        "muscle pain": 2,
+        "nausea": 5,
+        "vomiting": 5,
+        "yellowing of eyes": 4,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.866Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.7906,
+        "matchedTitle": "Dengue imported disease profile",
+        "newTokens": [
+          "hepatitis",
+          "highly",
+          "contagious",
+          "liver",
+          "infection",
+          "one",
+          "several",
+          "types",
+          "viruses",
+          "cause",
+          "inflammation",
+          "affect",
+          "ability",
+          "function",
+          "abdominal",
+          "dark",
+          "urine",
+          "diarrhoea",
+          "mild",
+          "yellowing",
+          "yellowish",
+          "consult",
+          "nearest",
+          "hospital",
+          "wash"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hepatitis-b",
+    "source": "seed",
+    "title": "Hepatitis B imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hepatitis B. Description: Hepatitis B is an infection of your liver. It can cause scarring of the organ, liver failure, and cancer. It can be fatal if it isn't treated. It's spread when people come in contact with the blood, open sores, or body fluids of someone who has the hepatitis B virus. Symptoms linked in the imported dataset: abdominal pain, dark urine, fatigue, itching, lethargy, loss of appetite, malaise, receiving blood transfusion, receiving unsterile injections, yellow urine, yellowing of eyes, yellowish skin. Symptom severity weights: abdominal pain severity 4; dark urine severity 4; fatigue severity 4; itching severity 1; lethargy severity 2; loss of appetite severity 4; malaise severity 6; receiving blood transfusion severity 5; receiving unsterile injections severity 2; yellow urine severity 4; yellowing of eyes severity 4; yellowish skin severity 3. Source precautions: consult nearest hospital; vaccination; eat healthy; medication. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hepatitis B",
+      "symptoms": [
+        "abdominal pain",
+        "dark urine",
+        "fatigue",
+        "itching",
+        "lethargy",
+        "loss of appetite",
+        "malaise",
+        "receiving blood transfusion",
+        "receiving unsterile injections",
+        "yellow urine",
+        "yellowing of eyes",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "consult nearest hospital",
+        "vaccination",
+        "eat healthy",
+        "medication"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "dark urine": 4,
+        "fatigue": 4,
+        "itching": 1,
+        "lethargy": 2,
+        "loss of appetite": 4,
+        "malaise": 6,
+        "receiving blood transfusion": 5,
+        "receiving unsterile injections": 2,
+        "yellow urine": 4,
+        "yellowing of eyes": 4,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.866Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.7838,
+        "matchedTitle": "hepatitis A imported disease profile",
+        "newTokens": [
+          "scarring",
+          "organ",
+          "failure",
+          "cancer",
+          "fatal",
+          "isn",
+          "treated",
+          "spread",
+          "people",
+          "come",
+          "contact",
+          "blood",
+          "open",
+          "sores",
+          "body",
+          "fluids",
+          "someone",
+          "fatigue",
+          "itching",
+          "lethargy",
+          "malaise",
+          "receiving",
+          "transfusion",
+          "unsterile",
+          "injections"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hepatitis-c",
+    "source": "seed",
+    "title": "Hepatitis C imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hepatitis C. Description: Inflammation of the liver due to the hepatitis C virus (HCV), which is usually spread via blood transfusion (rare), hemodialysis, and needle sticks. The damage hepatitis C does to the liver can lead to cirrhosis and its complications as well as cancer. Symptoms linked in the imported dataset: family history, fatigue, loss of appetite, nausea, yellowing of eyes, yellowish skin. Symptom severity weights: family history severity 5; fatigue severity 4; loss of appetite severity 4; nausea severity 5; yellowing of eyes severity 4; yellowish skin severity 3. Source precautions: Consult nearest hospital; vaccination; eat healthy; medication. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hepatitis C",
+      "symptoms": [
+        "family history",
+        "fatigue",
+        "loss of appetite",
+        "nausea",
+        "yellowing of eyes",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "Consult nearest hospital",
+        "vaccination",
+        "eat healthy",
+        "medication"
+      ],
+      "severity": {
+        "family history": 5,
+        "fatigue": 4,
+        "loss of appetite": 4,
+        "nausea": 5,
+        "yellowing of eyes": 4,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.866Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.7512,
+        "matchedTitle": "Hepatitis B imported disease profile",
+        "newTokens": [
+          "inflammation",
+          "due",
+          "hcv",
+          "usually",
+          "via",
+          "rare",
+          "hemodialysis",
+          "needle",
+          "sticks",
+          "damage",
+          "does",
+          "lead",
+          "cirrhosis",
+          "its",
+          "complications",
+          "well",
+          "family",
+          "history",
+          "nausea"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hepatitis-d",
+    "source": "seed",
+    "title": "Hepatitis D imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hepatitis D. Description: Hepatitis D, also known as the hepatitis delta virus, is an infection that causes the liver to become inflamed. This swelling can impair liver function and cause long-term liver problems, including liver scarring and cancer. The condition is caused by the hepatitis D virus (HDV). Symptoms linked in the imported dataset: abdominal pain, dark urine, fatigue, joint pain, loss of appetite, nausea, vomiting, yellowing of eyes, yellowish skin. Symptom severity weights: abdominal pain severity 4; dark urine severity 4; fatigue severity 4; joint pain severity 3; loss of appetite severity 4; nausea severity 5; vomiting severity 5; yellowing of eyes severity 4; yellowish skin severity 3. Source precautions: consult doctor; medication; eat healthy; follow up. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hepatitis D",
+      "symptoms": [
+        "abdominal pain",
+        "dark urine",
+        "fatigue",
+        "joint pain",
+        "loss of appetite",
+        "nausea",
+        "vomiting",
+        "yellowing of eyes",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "consult doctor",
+        "medication",
+        "eat healthy",
+        "follow up"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "dark urine": 4,
+        "fatigue": 4,
+        "joint pain": 3,
+        "loss of appetite": 4,
+        "nausea": 5,
+        "vomiting": 5,
+        "yellowing of eyes": 4,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.866Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.8882,
+        "matchedTitle": "hepatitis A imported disease profile",
+        "newTokens": [
+          "known",
+          "delta",
+          "causes",
+          "become",
+          "inflamed",
+          "swelling",
+          "impair",
+          "long-term",
+          "problems",
+          "including",
+          "scarring",
+          "cancer",
+          "condition",
+          "hdv",
+          "fatigue",
+          "doctor",
+          "eat",
+          "healthy",
+          "follow"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hepatitis-e",
+    "source": "seed",
+    "title": "Hepatitis E imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hepatitis E. Description: A rare form of liver inflammation caused by infection with the hepatitis E virus (HEV). It is transmitted via food or drink handled by an infected person or through infected water supplies in areas where fecal matter may get into the water. Hepatitis E does not cause chronic liver disease. Symptoms linked in the imported dataset: abdominal pain, acute liver failure, coma, dark urine, fatigue, high fever, joint pain, loss of appetite, nausea, stomach bleeding, vomiting, yellowing of eyes, yellowish skin. Symptom severity weights: abdominal pain severity 4; acute liver failure severity 6; coma severity 7; dark urine severity 4; fatigue severity 4; high fever severity 7; joint pain severity 3; loss of appetite severity 4; nausea severity 5; stomach bleeding severity 6; vomiting severity 5; yellowing of eyes severity 4; yellowish skin severity 3. Source precautions: stop alcohol consumption; rest; consult doctor; medication. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hepatitis E",
+      "symptoms": [
+        "abdominal pain",
+        "acute liver failure",
+        "coma",
+        "dark urine",
+        "fatigue",
+        "high fever",
+        "joint pain",
+        "loss of appetite",
+        "nausea",
+        "stomach bleeding",
+        "vomiting",
+        "yellowing of eyes",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "stop alcohol consumption",
+        "rest",
+        "consult doctor",
+        "medication"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "acute liver failure": 6,
+        "coma": 7,
+        "dark urine": 4,
+        "fatigue": 4,
+        "high fever": 7,
+        "joint pain": 3,
+        "loss of appetite": 4,
+        "nausea": 5,
+        "stomach bleeding": 6,
+        "vomiting": 5,
+        "yellowing of eyes": 4,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.866Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.8712,
+        "matchedTitle": "Hepatitis D imported disease profile",
+        "newTokens": [
+          "rare",
+          "form",
+          "inflammation",
+          "hev",
+          "transmitted",
+          "via",
+          "food",
+          "drink",
+          "handled",
+          "infected",
+          "person",
+          "through",
+          "water",
+          "supplies",
+          "areas",
+          "fecal",
+          "matter",
+          "get",
+          "does",
+          "chronic",
+          "acute",
+          "failure",
+          "coma",
+          "high",
+          "fever"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-alcoholic-hepatitis",
+    "source": "seed",
+    "title": "Alcoholic hepatitis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Alcoholic hepatitis. Description: Alcoholic hepatitis is a diseased, inflammatory condition of the liver caused by heavy alcohol consumption over an extended period of time. It's also aggravated by binge drinking and ongoing alcohol use. If you develop this condition, you must stop drinking alcohol Symptoms linked in the imported dataset: abdominal pain, distention of abdomen, fluid overload, history of alcohol consumption, swelling of stomach, vomiting, yellowish skin. Symptom severity weights: abdominal pain severity 4; distention of abdomen severity 4; fluid overload severity 4; history of alcohol consumption severity 5; swelling of stomach severity 7; vomiting severity 5; yellowish skin severity 3. Source precautions: stop alcohol consumption; consult doctor; medication; follow up. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Alcoholic hepatitis",
+      "symptoms": [
+        "abdominal pain",
+        "distention of abdomen",
+        "fluid overload",
+        "history of alcohol consumption",
+        "swelling of stomach",
+        "vomiting",
+        "yellowish skin"
+      ],
+      "precautions": [
+        "stop alcohol consumption",
+        "consult doctor",
+        "medication",
+        "follow up"
+      ],
+      "severity": {
+        "abdominal pain": 4,
+        "distention of abdomen": 4,
+        "fluid overload": 4,
+        "history of alcohol consumption": 5,
+        "swelling of stomach": 7,
+        "vomiting": 5,
+        "yellowish skin": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6591,
+        "matchedTitle": "Hepatitis E imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-tuberculosis",
+    "source": "seed",
+    "title": "Tuberculosis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Tuberculosis. Description: Tuberculosis (TB) is an infectious disease usually caused by Mycobacterium tuberculosis (MTB) bacteria. Tuberculosis generally affects the lungs, but can also affect other parts of the body. Most infections show no symptoms, in which case it is known as latent tuberculosis. Symptoms linked in the imported dataset: blood in sputum, breathlessness, chest pain, chills, cough, fatigue, high fever, loss of appetite, malaise, mild fever, phlegm, sweating, swelled lymph nodes, vomiting, weight loss, yellowing of eyes. Symptom severity weights: blood in sputum severity 5; breathlessness severity 4; chest pain severity 7; chills severity 3; cough severity 4; fatigue severity 4; high fever severity 7; loss of appetite severity 4; malaise severity 6; mild fever severity 5; phlegm severity 5; sweating severity 3; swelled lymph nodes severity 6; vomiting severity 5; weight loss severity 3; yellowing of eyes severity 4. Source precautions: cover mouth; consult doctor; medication; rest. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Tuberculosis",
+      "symptoms": [
+        "blood in sputum",
+        "breathlessness",
+        "chest pain",
+        "chills",
+        "cough",
+        "fatigue",
+        "high fever",
+        "loss of appetite",
+        "malaise",
+        "mild fever",
+        "phlegm",
+        "sweating",
+        "swelled lymph nodes",
+        "vomiting",
+        "weight loss",
+        "yellowing of eyes"
+      ],
+      "precautions": [
+        "cover mouth",
+        "consult doctor",
+        "medication",
+        "rest"
+      ],
+      "severity": {
+        "blood in sputum": 5,
+        "breathlessness": 4,
+        "chest pain": 7,
+        "chills": 3,
+        "cough": 4,
+        "fatigue": 4,
+        "high fever": 7,
+        "loss of appetite": 4,
+        "malaise": 6,
+        "mild fever": 5,
+        "phlegm": 5,
+        "sweating": 3,
+        "swelled lymph nodes": 6,
+        "vomiting": 5,
+        "weight loss": 3,
+        "yellowing of eyes": 4
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.752,
+        "matchedTitle": "Chicken pox imported disease profile",
+        "newTokens": [
+          "tuberculosis",
+          "infectious",
+          "usually",
+          "mycobacterium",
+          "mtb",
+          "bacteria",
+          "generally",
+          "affects",
+          "lungs",
+          "affect",
+          "other",
+          "parts",
+          "most",
+          "infections",
+          "show",
+          "case",
+          "known",
+          "latent",
+          "blood",
+          "sputum",
+          "breathlessness",
+          "pain",
+          "chills",
+          "cough",
+          "phlegm"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-common-cold",
+    "source": "seed",
+    "title": "Common Cold imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Common Cold. Description: The common cold is a viral infection of your nose and throat (upper respiratory tract). It's usually harmless, although it might not feel that way. Many types of viruses can cause a common cold. Symptoms linked in the imported dataset: chest pain, chills, congestion, continuous sneezing, cough, fatigue, headache, high fever, loss of smell, malaise, muscle pain, phlegm, redness of eyes, runny nose, sinus pressure, swelled lymph nodes, throat irritation. Symptom severity weights: chest pain severity 7; chills severity 3; congestion severity 5; continuous sneezing severity 4; cough severity 4; fatigue severity 4; headache severity 3; high fever severity 7; loss of smell severity 3; malaise severity 6; muscle pain severity 2; phlegm severity 5; redness of eyes severity 5; runny nose severity 5; sinus pressure severity 4; swelled lymph nodes severity 6; throat irritation severity 4. Source precautions: drink vitamin c rich drinks; take vapour; avoid cold food; keep fever in check. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Common Cold",
+      "symptoms": [
+        "chest pain",
+        "chills",
+        "congestion",
+        "continuous sneezing",
+        "cough",
+        "fatigue",
+        "headache",
+        "high fever",
+        "loss of smell",
+        "malaise",
+        "muscle pain",
+        "phlegm",
+        "redness of eyes",
+        "runny nose",
+        "sinus pressure",
+        "swelled lymph nodes",
+        "throat irritation"
+      ],
+      "precautions": [
+        "drink vitamin c rich drinks",
+        "take vapour",
+        "avoid cold food",
+        "keep fever in check"
+      ],
+      "severity": {
+        "chest pain": 7,
+        "chills": 3,
+        "congestion": 5,
+        "continuous sneezing": 4,
+        "cough": 4,
+        "fatigue": 4,
+        "headache": 3,
+        "high fever": 7,
+        "loss of smell": 3,
+        "malaise": 6,
+        "muscle pain": 2,
+        "phlegm": 5,
+        "redness of eyes": 5,
+        "runny nose": 5,
+        "sinus pressure": 4,
+        "swelled lymph nodes": 6,
+        "throat irritation": 4
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.8003,
+        "matchedTitle": "Tuberculosis imported disease profile",
+        "newTokens": [
+          "common",
+          "cold",
+          "viral",
+          "infection",
+          "nose",
+          "throat",
+          "upper",
+          "respiratory",
+          "tract",
+          "harmless",
+          "although",
+          "feel",
+          "way",
+          "many",
+          "types",
+          "viruses",
+          "cause",
+          "congestion",
+          "continuous",
+          "sneezing",
+          "headache",
+          "smell",
+          "muscle",
+          "redness",
+          "runny"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-pneumonia",
+    "source": "seed",
+    "title": "Pneumonia imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Pneumonia. Description: Pneumonia is an infection in one or both lungs. Bacteria, viruses, and fungi cause it. The infection causes inflammation in the air sacs in your lungs, which are called alveoli. The alveoli fill with fluid or pus, making it difficult to breathe. Symptoms linked in the imported dataset: breathlessness, chest pain, chills, cough, fast heart rate, fatigue, high fever, malaise, phlegm, rusty sputum, sweating. Symptom severity weights: breathlessness severity 4; chest pain severity 7; chills severity 3; cough severity 4; fast heart rate severity 5; fatigue severity 4; high fever severity 7; malaise severity 6; phlegm severity 5; rusty sputum severity 4; sweating severity 3. Source precautions: consult doctor; medication; rest; follow up. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Pneumonia",
+      "symptoms": [
+        "breathlessness",
+        "chest pain",
+        "chills",
+        "cough",
+        "fast heart rate",
+        "fatigue",
+        "high fever",
+        "malaise",
+        "phlegm",
+        "rusty sputum",
+        "sweating"
+      ],
+      "precautions": [
+        "consult doctor",
+        "medication",
+        "rest",
+        "follow up"
+      ],
+      "severity": {
+        "breathlessness": 4,
+        "chest pain": 7,
+        "chills": 3,
+        "cough": 4,
+        "fast heart rate": 5,
+        "fatigue": 4,
+        "high fever": 7,
+        "malaise": 6,
+        "phlegm": 5,
+        "rusty sputum": 4,
+        "sweating": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.8035,
+        "matchedTitle": "Tuberculosis imported disease profile",
+        "newTokens": [
+          "pneumonia",
+          "infection",
+          "one",
+          "both",
+          "viruses",
+          "fungi",
+          "cause",
+          "causes",
+          "inflammation",
+          "air",
+          "sacs",
+          "called",
+          "alveoli",
+          "fill",
+          "fluid",
+          "pus",
+          "making",
+          "difficult",
+          "breathe",
+          "fast",
+          "heart",
+          "rate",
+          "rusty",
+          "follow"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-dimorphic-hemmorhoids-piles",
+    "source": "seed",
+    "title": "Dimorphic hemmorhoids(piles) imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Dimorphic hemmorhoids(piles). Symptoms linked in the imported dataset: bloody stool, constipation, irritation in anus, pain during bowel movements, pain in anal region. Symptom severity weights: bloody stool severity 5; constipation severity 4; irritation in anus severity 6; pain during bowel movements severity 5; pain in anal region severity 6. Source precautions: avoid fatty spicy food; consume witch hazel; warm bath with epsom salt; consume alovera juice. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Dimorphic hemmorhoids(piles)",
+      "symptoms": [
+        "bloody stool",
+        "constipation",
+        "irritation in anus",
+        "pain during bowel movements",
+        "pain in anal region"
+      ],
+      "precautions": [
+        "avoid fatty spicy food",
+        "consume witch hazel",
+        "warm bath with epsom salt",
+        "consume alovera juice"
+      ],
+      "severity": {
+        "bloody stool": 5,
+        "constipation": 4,
+        "irritation in anus": 6,
+        "pain during bowel movements": 5,
+        "pain in anal region": 6
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6166,
+        "matchedTitle": "Dengue imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-heart-attack",
+    "source": "seed",
+    "title": "Heart attack imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Heart attack. Description: The death of heart muscle due to the loss of blood supply. The loss of blood supply is usually caused by a complete blockage of a coronary artery, one of the arteries that supplies blood to the heart muscle. Symptoms linked in the imported dataset: breathlessness, chest pain, sweating, vomiting. Symptom severity weights: breathlessness severity 4; chest pain severity 7; sweating severity 3; vomiting severity 5. Source precautions: call ambulance; chew or swallow asprin; keep calm. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Heart attack",
+      "symptoms": [
+        "breathlessness",
+        "chest pain",
+        "sweating",
+        "vomiting"
+      ],
+      "precautions": [
+        "call ambulance",
+        "chew or swallow asprin",
+        "keep calm"
+      ],
+      "severity": {
+        "breathlessness": 4,
+        "chest pain": 7,
+        "sweating": 3,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6256,
+        "matchedTitle": "Tuberculosis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-varicose-veins",
+    "source": "seed",
+    "title": "Varicose veins imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Varicose veins. Description: A vein that has enlarged and twisted, often appearing as a bulging, blue blood vessel that is clearly visible through the skin. Varicose veins are most common in older adults, particularly women, and occur especially on the legs. Symptoms linked in the imported dataset: bruising, cramps, fatigue, obesity, prominent veins on calf, swollen blood vessels, swollen legs. Symptom severity weights: bruising severity 4; cramps severity 4; fatigue severity 4; obesity severity 4; prominent veins on calf severity 6; swollen blood vessels severity 5; swollen legs severity 5. Source precautions: lie down flat and raise the leg high; use oinments; use vein compression; dont stand still for long. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Varicose veins",
+      "symptoms": [
+        "bruising",
+        "cramps",
+        "fatigue",
+        "obesity",
+        "prominent veins on calf",
+        "swollen blood vessels",
+        "swollen legs"
+      ],
+      "precautions": [
+        "lie down flat and raise the leg high",
+        "use oinments",
+        "use vein compression",
+        "dont stand still for long"
+      ],
+      "severity": {
+        "bruising": 4,
+        "cramps": 4,
+        "fatigue": 4,
+        "obesity": 4,
+        "prominent veins on calf": 6,
+        "swollen blood vessels": 5,
+        "swollen legs": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5712,
+        "matchedTitle": "Diabetes imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hypothyroidism",
+    "source": "seed",
+    "title": "Hypothyroidism imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hypothyroidism. Description: Hypothyroidism, also called underactive thyroid or low thyroid, is a disorder of the endocrine system in which the thyroid gland does not produce enough thyroid hormone. Symptoms linked in the imported dataset: abnormal menstruation, brittle nails, cold hands and feets, depression, dizziness, enlarged thyroid, fatigue, irritability, lethargy, mood swings, puffy face and eyes, swollen extremeties, weight gain. Symptom severity weights: abnormal menstruation severity 6; brittle nails severity 5; cold hands and feets severity 5; depression severity 3; dizziness severity 4; enlarged thyroid severity 6; fatigue severity 4; irritability severity 2; lethargy severity 2; mood swings severity 3; puffy face and eyes severity 5; swollen extremeties severity 5; weight gain severity 3. Source precautions: reduce stress; exercise; eat healthy; get proper sleep. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hypothyroidism",
+      "symptoms": [
+        "abnormal menstruation",
+        "brittle nails",
+        "cold hands and feets",
+        "depression",
+        "dizziness",
+        "enlarged thyroid",
+        "fatigue",
+        "irritability",
+        "lethargy",
+        "mood swings",
+        "puffy face and eyes",
+        "swollen extremeties",
+        "weight gain"
+      ],
+      "precautions": [
+        "reduce stress",
+        "exercise",
+        "eat healthy",
+        "get proper sleep"
+      ],
+      "severity": {
+        "abnormal menstruation": 6,
+        "brittle nails": 5,
+        "cold hands and feets": 5,
+        "depression": 3,
+        "dizziness": 4,
+        "enlarged thyroid": 6,
+        "fatigue": 4,
+        "irritability": 2,
+        "lethargy": 2,
+        "mood swings": 3,
+        "puffy face and eyes": 5,
+        "swollen extremeties": 5,
+        "weight gain": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.867Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6652,
+        "matchedTitle": "Common Cold imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hyperthyroidism",
+    "source": "seed",
+    "title": "Hyperthyroidism imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hyperthyroidism. Description: Hyperthyroidism (overactive thyroid) occurs when your thyroid gland produces too much of the hormone thyroxine. Hyperthyroidism can accelerate your body's metabolism, causing unintentional weight loss and a rapid or irregular heartbeat. Symptoms linked in the imported dataset: abnormal menstruation, diarrhoea, excessive hunger, fast heart rate, fatigue, irritability, mood swings, muscle weakness, restlessness, sweating, weight loss. Symptom severity weights: abnormal menstruation severity 6; diarrhoea severity 6; excessive hunger severity 4; fast heart rate severity 5; fatigue severity 4; irritability severity 2; mood swings severity 3; muscle weakness severity 2; restlessness severity 5; sweating severity 3; weight loss severity 3. Source precautions: eat healthy; massage; use lemon balm; take radioactive iodine treatment. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hyperthyroidism",
+      "symptoms": [
+        "abnormal menstruation",
+        "diarrhoea",
+        "excessive hunger",
+        "fast heart rate",
+        "fatigue",
+        "irritability",
+        "mood swings",
+        "muscle weakness",
+        "restlessness",
+        "sweating",
+        "weight loss"
+      ],
+      "precautions": [
+        "eat healthy",
+        "massage",
+        "use lemon balm",
+        "take radioactive iodine treatment"
+      ],
+      "severity": {
+        "abnormal menstruation": 6,
+        "diarrhoea": 6,
+        "excessive hunger": 4,
+        "fast heart rate": 5,
+        "fatigue": 4,
+        "irritability": 2,
+        "mood swings": 3,
+        "muscle weakness": 2,
+        "restlessness": 5,
+        "sweating": 3,
+        "weight loss": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.868Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.7368,
+        "matchedTitle": "Hypothyroidism imported disease profile",
+        "newTokens": [
+          "hyperthyroidism",
+          "overactive",
+          "occurs",
+          "produces",
+          "too",
+          "much",
+          "thyroxine",
+          "accelerate",
+          "body",
+          "metabolism",
+          "causing",
+          "unintentional",
+          "loss",
+          "rapid",
+          "irregular",
+          "heartbeat",
+          "diarrhoea",
+          "excessive",
+          "hunger",
+          "fast",
+          "heart",
+          "rate",
+          "muscle",
+          "weakness",
+          "restlessness"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-hypoglycemia",
+    "source": "seed",
+    "title": "Hypoglycemia imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Hypoglycemia. Description: Hypoglycemia is a condition in which your blood sugar (glucose) level is lower than normal. Glucose is your body's main energy source. Hypoglycemia is often related to diabetes treatment. But other drugs and a variety of conditions — many rare — can cause low blood sugar in people who don't have diabetes. Symptoms linked in the imported dataset: anxiety, blurred and distorted vision, drying and tingling lips, excessive hunger, fatigue, headache, irritability, nausea, palpitations, slurred speech, sweating, vomiting. Symptom severity weights: anxiety severity 4; blurred and distorted vision severity 5; drying and tingling lips severity 4; excessive hunger severity 4; fatigue severity 4; headache severity 3; irritability severity 2; nausea severity 5; palpitations severity 4; slurred speech severity 4; sweating severity 3; vomiting severity 5. Source precautions: lie down on side; check in pulse; drink sugary drinks; consult doctor. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Hypoglycemia",
+      "symptoms": [
+        "anxiety",
+        "blurred and distorted vision",
+        "drying and tingling lips",
+        "excessive hunger",
+        "fatigue",
+        "headache",
+        "irritability",
+        "nausea",
+        "palpitations",
+        "slurred speech",
+        "sweating",
+        "vomiting"
+      ],
+      "precautions": [
+        "lie down on side",
+        "check in pulse",
+        "drink sugary drinks",
+        "consult doctor"
+      ],
+      "severity": {
+        "anxiety": 4,
+        "blurred and distorted vision": 5,
+        "drying and tingling lips": 4,
+        "excessive hunger": 4,
+        "fatigue": 4,
+        "headache": 3,
+        "irritability": 2,
+        "nausea": 5,
+        "palpitations": 4,
+        "slurred speech": 4,
+        "sweating": 3,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.868Z",
+      "comparison": {
+        "status": "extended",
+        "score": 0.7584,
+        "matchedTitle": "Diabetes imported disease profile",
+        "newTokens": [
+          "hypoglycemia",
+          "condition",
+          "lower",
+          "normal",
+          "body",
+          "often",
+          "related",
+          "treatment",
+          "other",
+          "drugs",
+          "variety",
+          "conditions",
+          "many",
+          "rare",
+          "cause",
+          "low",
+          "people",
+          "don",
+          "anxiety",
+          "drying",
+          "tingling",
+          "lips",
+          "headache",
+          "irritability",
+          "nausea"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-osteoarthristis",
+    "source": "seed",
+    "title": "Osteoarthristis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Osteoarthristis. Description: Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of your bones wears down over time. Symptoms linked in the imported dataset: hip joint pain, joint pain, knee pain, neck pain, painful walking, swelling joints. Symptom severity weights: hip joint pain severity 2; joint pain severity 3; knee pain severity 3; neck pain severity 5; painful walking severity 2; swelling joints severity 5. Source precautions: acetaminophen; consult nearest hospital; follow up; salt baths. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Osteoarthristis",
+      "symptoms": [
+        "hip joint pain",
+        "joint pain",
+        "knee pain",
+        "neck pain",
+        "painful walking",
+        "swelling joints"
+      ],
+      "precautions": [
+        "acetaminophen",
+        "consult nearest hospital",
+        "follow up",
+        "salt baths"
+      ],
+      "severity": {
+        "hip joint pain": 2,
+        "joint pain": 3,
+        "knee pain": 3,
+        "neck pain": 5,
+        "painful walking": 2,
+        "swelling joints": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.868Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6866,
+        "matchedTitle": "Dengue imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-arthritis",
+    "source": "seed",
+    "title": "Arthritis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Arthritis. Description: Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis. Symptoms linked in the imported dataset: movement stiffness, muscle weakness, painful walking, stiff neck, swelling joints. Symptom severity weights: movement stiffness severity 5; muscle weakness severity 2; painful walking severity 2; stiff neck severity 4; swelling joints severity 5. Source precautions: exercise; use hot and cold therapy; try acupuncture; massage. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Arthritis",
+      "symptoms": [
+        "movement stiffness",
+        "muscle weakness",
+        "painful walking",
+        "stiff neck",
+        "swelling joints"
+      ],
+      "precautions": [
+        "exercise",
+        "use hot and cold therapy",
+        "try acupuncture",
+        "massage"
+      ],
+      "severity": {
+        "movement stiffness": 5,
+        "muscle weakness": 2,
+        "painful walking": 2,
+        "stiff neck": 4,
+        "swelling joints": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.868Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.6151,
+        "matchedTitle": "Osteoarthristis imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-vertigo-paroymsal-positional-vertigo",
+    "source": "seed",
+    "title": "(vertigo) Paroymsal Positional Vertigo imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: (vertigo) Paroymsal Positional Vertigo. Description: Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo — the sudden sensation that you're spinning or that the inside of your head is spinning. Benign paroxysmal positional vertigo causes brief episodes of mild to intense dizziness. Symptoms linked in the imported dataset: headache, loss of balance, nausea, spinning movements, unsteadiness, vomiting. Symptom severity weights: headache severity 3; loss of balance severity 4; nausea severity 5; spinning movements severity 6; unsteadiness severity 4; vomiting severity 5. Source precautions: lie down; avoid sudden change in body; avoid abrupt head movment; relax. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "(vertigo) Paroymsal Positional Vertigo",
+      "symptoms": [
+        "headache",
+        "loss of balance",
+        "nausea",
+        "spinning movements",
+        "unsteadiness",
+        "vomiting"
+      ],
+      "precautions": [
+        "lie down",
+        "avoid sudden change in body",
+        "avoid abrupt head movment",
+        "relax"
+      ],
+      "severity": {
+        "headache": 3,
+        "loss of balance": 4,
+        "nausea": 5,
+        "spinning movements": 6,
+        "unsteadiness": 4,
+        "vomiting": 5
+      },
+      "createdAt": "2026-05-22T14:02:40.868Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5686,
+        "matchedTitle": "Malaria imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-acne",
+    "source": "seed",
+    "title": "Acne imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Acne. Description: Acne vulgaris is the formation of comedones, papules, pustules, nodules, and/or cysts as a result of obstruction and inflammation of pilosebaceous units (hair follicles and their accompanying sebaceous gland). Acne develops on the face and upper trunk. It most often affects adolescents. Symptoms linked in the imported dataset: blackheads, pus filled pimples, scurring, skin rash. Symptom severity weights: blackheads severity 2; pus filled pimples severity 2; scurring severity 2; skin rash severity 3. Source precautions: bath twice; avoid fatty spicy food; drink plenty of water; avoid too many products. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Acne",
+      "symptoms": [
+        "blackheads",
+        "pus filled pimples",
+        "scurring",
+        "skin rash"
+      ],
+      "precautions": [
+        "bath twice",
+        "avoid fatty spicy food",
+        "drink plenty of water",
+        "avoid too many products"
+      ],
+      "severity": {
+        "blackheads": 2,
+        "pus filled pimples": 2,
+        "scurring": 2,
+        "skin rash": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.868Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5249,
+        "matchedTitle": "Malaria imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-urinary-tract-infection",
+    "source": "seed",
+    "title": "Urinary tract infection imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Urinary tract infection. Description: Urinary tract infection: An infection of the kidney, ureter, bladder, or urethra. Abbreviated UTI. Not everyone with a UTI has symptoms, but common symptoms include a frequent urge to urinate and pain or burning when urinating. Symptoms linked in the imported dataset: bladder discomfort, burning micturition, continuous feel of urine, foul smell of urine. Symptom severity weights: bladder discomfort severity 4; burning micturition severity 6; continuous feel of urine severity 6; foul smell of urine severity 0. Source precautions: drink plenty of water; increase vitamin c intake; drink cranberry juice; take probiotics. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Urinary tract infection",
+      "symptoms": [
+        "bladder discomfort",
+        "burning micturition",
+        "continuous feel of urine",
+        "foul smell of urine"
+      ],
+      "precautions": [
+        "drink plenty of water",
+        "increase vitamin c intake",
+        "drink cranberry juice",
+        "take probiotics"
+      ],
+      "severity": {
+        "bladder discomfort": 4,
+        "burning micturition": 6,
+        "continuous feel of urine": 6,
+        "foul smell of urine": 0
+      },
+      "createdAt": "2026-05-22T14:02:40.869Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.4945,
+        "matchedTitle": "Common Cold imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-psoriasis",
+    "source": "seed",
+    "title": "Psoriasis imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Psoriasis. Description: Psoriasis is a common skin disorder that forms thick, red, bumpy patches covered with silvery scales. They can pop up anywhere, but most appear on the scalp, elbows, knees, and lower back. Psoriasis can't be passed from person to person. It does sometimes happen in members of the same family. Symptoms linked in the imported dataset: inflammatory nails, joint pain, silver like dusting, skin peeling, skin rash, small dents in nails. Symptom severity weights: inflammatory nails severity 2; joint pain severity 3; silver like dusting severity 2; skin peeling severity 3; skin rash severity 3; small dents in nails severity 2. Source precautions: wash hands with warm soapy water; stop bleeding using pressure; consult doctor; salt baths. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Psoriasis",
+      "symptoms": [
+        "inflammatory nails",
+        "joint pain",
+        "silver like dusting",
+        "skin peeling",
+        "skin rash",
+        "small dents in nails"
+      ],
+      "precautions": [
+        "wash hands with warm soapy water",
+        "stop bleeding using pressure",
+        "consult doctor",
+        "salt baths"
+      ],
+      "severity": {
+        "inflammatory nails": 2,
+        "joint pain": 3,
+        "silver like dusting": 2,
+        "skin peeling": 3,
+        "skin rash": 3,
+        "small dents in nails": 2
+      },
+      "createdAt": "2026-05-22T14:02:40.869Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5655,
+        "matchedTitle": "Hepatitis E imported disease profile"
+      }
+    }
+  },
+  {
+    "id": "dataset-sumeshverse-impetigo",
+    "source": "seed",
+    "title": "Impetigo imported disease profile",
+    "category": "external-disease-dataset",
+    "trusted": false,
+    "url": "https://github.com/sumeshverse/medical-ai-project",
+    "text": "Disease: Impetigo. Description: Impetigo (im-puh-TIE-go) is a common and highly contagious skin infection that mainly affects infants and children. Impetigo usually appears as red sores on the face, especially around a child's nose and mouth, and on hands and feet. The sores burst and develop honey-colored crusts. Symptoms linked in the imported dataset: blister, high fever, red sore around nose, skin rash, yellow crust ooze. Symptom severity weights: blister severity 4; high fever severity 7; red sore around nose severity 2; skin rash severity 3; yellow crust ooze severity 3. Source precautions: soak affected area in warm water; use antibiotics; remove scabs with wet compressed cloth; consult doctor. Use this imported disease record as retrieval support only; urgent symptoms and medicine decisions still require clinician review.",
+    "metadata": {
+      "origin": "sumeshverse/medical-ai-project",
+      "sourceFiles": [
+        "dataset.csv",
+        "symptom_Description.csv",
+        "symptom_precaution.csv",
+        "Symptom-severity.csv"
+      ],
+      "datasetDisease": true,
+      "diseaseName": "Impetigo",
+      "symptoms": [
+        "blister",
+        "high fever",
+        "red sore around nose",
+        "skin rash",
+        "yellow crust ooze"
+      ],
+      "precautions": [
+        "soak affected area in warm water",
+        "use antibiotics",
+        "remove scabs with wet compressed cloth",
+        "consult doctor"
+      ],
+      "severity": {
+        "blister": 4,
+        "high fever": 7,
+        "red sore around nose": 2,
+        "skin rash": 3,
+        "yellow crust ooze": 3
+      },
+      "createdAt": "2026-05-22T14:02:40.869Z",
+      "comparison": {
+        "status": "new",
+        "score": 0.5746,
+        "matchedTitle": "Chicken pox imported disease profile"
+      }
+    }
+  }
+]

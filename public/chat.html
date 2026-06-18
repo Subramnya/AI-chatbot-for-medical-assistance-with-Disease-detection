@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat with DOC</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script defer src="/js/shared.js"></script>
+    <script defer src="/js/chat.js?v=short-turns-6"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/"><span class="brand-mark">D</span><span>DOC <small>voice assistant</small></span></a>
+      <button class="menu-button" type="button" data-menu-open aria-label="Open menu"><span class="menu-lines" aria-hidden="true"></span></button>
+    </header>
+    <aside class="menu-panel" data-menu-panel>
+      <div class="menu-head">
+        <a class="brand" href="/"><span class="brand-mark">D</span><span>DOC</span></a>
+        <button class="icon-button" type="button" data-menu-close aria-label="Close menu">x</button>
+      </div>
+      <nav class="menu-nav">
+        <a href="/chat.html">Chat with DOC <span>voice</span></a>
+        <a href="/app.html">Get Started <span>intake</span></a>
+        <a href="/admin-login.html">Training Mode <span>admin</span></a>
+        <a href="/trained-data.html" data-admin-only hidden>Show Trained Data <span>vectors</span></a>
+      </nav>
+    </aside>
+
+    <main class="page">
+      <div class="page-title">
+        <h1>Talk With DOC</h1>
+        <p>Use continuous voice and optional uploads. DOC asks for details step by step, answers after you pause, then listens again after each reply finishes.</p>
+      </div>
+      <div class="chat-layout">
+        <section>
+          <div class="voice-stage" id="voiceStage">
+            <div class="voice-orb" aria-hidden="true">
+              <div class="voice-ring"></div>
+              <div class="voice-core">DOC</div>
+            </div>
+            <div class="sound-wave" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <p id="liveTranscript" class="live-transcript">Press start and speak naturally.</p>
+          </div>
+          <div id="chatWindow" class="chat-window" aria-live="polite"></div>
+          <div class="voice-controls">
+            <button class="button button-pill" id="voiceButton" type="button">Start continuous voice <span class="arrow-mark" aria-hidden="true">-&gt;</span></button>
+            <button class="button button-pill secondary" id="stopVoiceButton" type="button">Pause voice</button>
+          </div>
+          <div id="chatStatus" class="status" role="status"></div>
+        </section>
+        <aside class="side-stack">
+          <div class="panel">
+            <h2>Uploads</h2>
+            <div class="field">
+              <label for="chatFiles">Attach visuals or reports</label>
+              <input id="chatFiles" type="file" multiple accept=".pdf,.txt,.csv,.json,.xlsx,.xls,.doc,.docx,image/*">
+              <small>Files attach to your next spoken message, or you can send them now.</small>
+            </div>
+            <button class="button button-pill secondary upload-now" id="uploadNowButton" type="button">Send uploads <span class="arrow-mark" aria-hidden="true">-&gt;</span></button>
+          </div>
+          <div class="panel">
+            <h2>Latest report</h2>
+            <p class="status">Generated reports open here after DOC prepares them.</p>
+            <a id="latestReport" class="button secondary" href="#" hidden>Open latest report</a>
+          </div>
+          <div class="notice">For emergency warning signs, use local emergency services first.</div>
+        </aside>
+      </div>
+    </main>
+    <div class="net-banner">Internet connection appears unavailable. Connect Wi-Fi or mobile data before using web-backed training or deployment features.</div>
+  </body>
+</html>

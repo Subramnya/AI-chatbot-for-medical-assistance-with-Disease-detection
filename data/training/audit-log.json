@@ -1,0 +1,11 @@
+[
+  {
+    "id": "audit-1779458560905",
+    "event": "external-dataset-import",
+    "origin": "sumeshverse/medical-ai-project",
+    "added": 41,
+    "skipped": 0,
+    "medicineDataset": "medicine_dataset.csv was inspected but not imported for prescribing because it contains unverified generated names and exact strengths.",
+    "createdAt": "2026-05-22T14:02:40.905Z"
+  }
+]

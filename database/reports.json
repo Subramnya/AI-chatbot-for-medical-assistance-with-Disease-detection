@@ -1,0 +1,1867 @@
+[
+  {
+    "id": "report-1496b929a9b8c8b0",
+    "createdAt": "2026-05-18T17:13:02.962Z",
+    "patient": {
+      "name": "Subramanya Math",
+      "age": "20",
+      "sex": "Male"
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: feeling cold ",
+      "Visible changes described: no visible bleeding",
+      "Age provided: 20",
+      "Allergies/sensitivities mentioned: nothing",
+      "Current medicines mentioned: nothing",
+      "Additional notes: nothing"
+    ],
+    "urgency": {
+      "level": "Self-care with monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Viral upper respiratory infection such as common cold",
+        "confidence": "low",
+        "explanation": "Cold-like symptoms are usually viral. Antibiotics do not treat ordinary viral colds, but fever, breathing trouble, chest pain, or high-risk health conditions change the urgency.",
+        "evidence": [
+          "Input matched cold"
+        ]
+      },
+      {
+        "name": "Wound, bruise, or possible skin infection",
+        "confidence": "low",
+        "explanation": "Wounds need cleaning and monitoring. Increasing redness, warmth, pus, fever, red streaks, numbness, or deep/dirty wounds can mean infection or tissue injury.",
+        "evidence": [
+          "Input matched bleeding"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest, drink fluids, and use humidified air or saline spray if available.",
+        "Monitor temperature and breathing.",
+        "Consider testing or medical advice if flu/COVID risk is present.",
+        "Rinse minor wounds with clean running water and cover with a clean dressing.",
+        "Apply direct pressure for bleeding."
+      ],
+      "avoid": [
+        "Avoid unnecessary antibiotics.",
+        "Avoid smoking and heavy exertion while feverish.",
+        "Do not give honey to children under one year.",
+        "Do not apply harsh chemicals into deep wounds.",
+        "Avoid picking at scabs or squeezing pus."
+      ],
+      "foodHydration": [
+        "Warm fluids, soups, and soft foods can help comfort.",
+        "Prioritize water or oral rehydration if sweating or fever is present.",
+        "Protein, fruits, and fluids support healing.",
+        "People with diabetes should seek earlier wound review."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Pain or fever",
+        "medicineName": "Paracetamol / Acetaminophen",
+        "activeContent": "Paracetamol, also called acetaminophen",
+        "commonBrands": [
+          "Tylenol",
+          "Calpol",
+          "Dolo 650",
+          "Crocin"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 3 days before clinician review if symptoms continue.",
+        "safety": "Avoid or ask first with liver disease, heavy alcohol use, allergy, or another product containing paracetamol/acetaminophen."
+      },
+      {
+        "serial": 2,
+        "purpose": "Pain, swelling, or fever",
+        "medicineName": "Ibuprofen",
+        "activeContent": "Ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID)",
+        "commonBrands": [
+          "Advil",
+          "Motrin",
+          "Brufen",
+          "Ibugesic"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 2 days for swelling/pain before clinician review if not improving.",
+        "safety": "Avoid or ask first with NSAID allergy, stomach ulcer/bleeding, kidney disease, blood thinners, uncontrolled blood pressure, heart disease, pregnancy, or dehydration."
+      },
+      {
+        "serial": 3,
+        "purpose": "Nasal congestion",
+        "medicineName": "Sterile saline nasal spray/drops",
+        "activeContent": "Sodium chloride sterile saline",
+        "commonBrands": [
+          "Simply Saline",
+          "Nasoclear",
+          "generic saline"
+        ],
+        "reviewWindow": "Can be used for a few days as comfort support; review if severe or prolonged symptoms.",
+        "safety": "Use clean sterile products and avoid sharing bottles."
+      },
+      {
+        "serial": 4,
+        "purpose": "Allergy symptoms",
+        "medicineName": "Cetirizine",
+        "activeContent": "Cetirizine hydrochloride, second-generation antihistamine",
+        "commonBrands": [
+          "Zyrtec",
+          "Cetzine",
+          "Okacet",
+          "Alerid"
+        ],
+        "reviewWindow": "Often used short-term for 1 to 3 days for simple allergy symptoms; review if symptoms persist or worsen.",
+        "safety": "Can cause drowsiness in some people. Ask a clinician for young children, pregnancy, kidney disease, or complex medicine lists."
+      },
+      {
+        "serial": 5,
+        "purpose": "Dry cough",
+        "medicineName": "Dextromethorphan",
+        "activeContent": "Dextromethorphan hydrobromide cough suppressant",
+        "commonBrands": [
+          "Delsym",
+          "Benadryl DR",
+          "Corex DX"
+        ],
+        "reviewWindow": "Short-term only for dry cough; review if cough lasts, fever is high, breathing is difficult, or phlegm is bloody.",
+        "safety": "Avoid with MAOI medicines or some antidepressants unless a clinician/pharmacist confirms safety."
+      }
+    ],
+    "termExplanations": [
+      "Viral infection: an illness caused by a virus, not treated by antibiotics.",
+      "Congestion: swelling and mucus that block nasal passages.",
+      "Cellulitis: spreading bacterial infection of the skin and soft tissue.",
+      "Pus: thick fluid that can indicate infection."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Fracture and suspected broken bone first aid",
+        "category": "injury",
+        "score": 0.1173,
+        "url": "https://medlineplus.gov/ency/article/000001.htm"
+      },
+      {
+        "title": "NSAID safety warnings",
+        "category": "medicine-safety",
+        "score": 0.03923,
+        "url": "https://www.fda.gov/Drugs/DrugSafety/ucm451800.htm"
+      },
+      {
+        "title": "Asthma symptoms and flare safety",
+        "category": "respiratory",
+        "score": 0.03256,
+        "url": "https://medlineplus.gov/asthma.html"
+      },
+      {
+        "title": "Urinary tract infection symptoms and escalation",
+        "category": "urinary",
+        "score": 0.03256,
+        "url": "https://medlineplus.gov/urinarytractinfections.html"
+      },
+      {
+        "title": "Wounds and infection warning signs",
+        "category": "injury",
+        "score": 0.02864,
+        "url": "https://medlineplus.gov/woundsandinjuries.html"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "feeling cold ",
+      "visuals": "no visible bleeding",
+      "allergies": "nothing",
+      "additional": "nothing",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-095107a9c22c8e12",
+    "createdAt": "2026-06-11T18:58:48.639Z",
+    "patient": {
+      "name": "Alex",
+      "age": "20",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: cold and cough",
+      "Visible changes described: None",
+      "Age provided: 20",
+      "Allergies/sensitivities mentioned: No known allergies or major medicine restrictions mentioned.",
+      "Additional notes: None"
+    ],
+    "urgency": {
+      "level": "Self-care with monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Viral upper respiratory infection such as common cold",
+        "confidence": "low-to-medium",
+        "explanation": "Cold-like symptoms are usually viral. Antibiotics do not treat ordinary viral colds, but fever, breathing trouble, chest pain, or high-risk health conditions change the urgency.",
+        "evidence": [
+          "Input matched cold",
+          "Input matched cough"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest, drink fluids, and use humidified air or saline spray if available.",
+        "Monitor temperature and breathing.",
+        "Consider testing or medical advice if flu/COVID risk is present."
+      ],
+      "avoid": [
+        "Avoid unnecessary antibiotics.",
+        "Avoid smoking and heavy exertion while feverish.",
+        "Do not give honey to children under one year."
+      ],
+      "foodHydration": [
+        "Warm fluids, soups, and soft foods can help comfort.",
+        "Prioritize water or oral rehydration if sweating or fever is present."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Nasal congestion",
+        "medicineName": "Sterile saline nasal spray/drops",
+        "activeContent": "Sodium chloride sterile saline",
+        "commonBrands": [
+          "Simply Saline",
+          "Nasoclear",
+          "generic saline"
+        ],
+        "reviewWindow": "Can be used for a few days as comfort support; review if severe or prolonged symptoms.",
+        "safety": "Use clean sterile products and avoid sharing bottles."
+      }
+    ],
+    "termExplanations": [
+      "Viral infection: an illness caused by a virus, not treated by antibiotics.",
+      "Congestion: swelling and mucus that block nasal passages."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Sinusitis and nasal congestion",
+        "category": "ear-nose-throat",
+        "score": 0.08559,
+        "url": "https://medlineplus.gov/sinusitis.html"
+      },
+      {
+        "title": "Common Cold imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.0837,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Common cold self-care and antibiotic safety",
+        "category": "respiratory",
+        "score": 0.06492,
+        "url": "https://www.cdc.gov/common-cold/treatment/index.html"
+      },
+      {
+        "title": "Bronchial Asthma imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.06419,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Allergic reaction and anaphylaxis red flags",
+        "category": "allergy",
+        "score": 0.06363,
+        "url": "https://medlineplus.gov/ency/article/000005.htm"
+      },
+      {
+        "title": "Chronic cholestasis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.0629,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "cold and cough",
+      "visuals": "None",
+      "allergies": "No known allergies or major medicine restrictions mentioned.",
+      "additional": "None",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-1f5e8e964060b300",
+    "createdAt": "2026-06-11T19:20:49.120Z",
+    "patient": {
+      "name": "Alex",
+      "age": "21",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: fever correct nothing",
+      "Visible changes described: None",
+      "Age provided: 21",
+      "Allergies/sensitivities mentioned: No known allergies or major medicine restrictions mentioned.",
+      "Additional notes: None is fever fever"
+    ],
+    "urgency": {
+      "level": "Self-care with monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Typhoid pattern",
+        "confidence": "low-to-medium",
+        "explanation": "Disease: Typhoid.",
+        "evidence": [
+          "Imported disease profile matched local vector search score 0.18807"
+        ]
+      },
+      {
+        "name": "Chicken pox pattern",
+        "confidence": "low-to-medium",
+        "explanation": "Disease: Chicken pox.",
+        "evidence": [
+          "Imported disease profile matched local vector search score 0.15304"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Use the report as a discussion aid and confirm the diagnosis with a qualified clinician."
+      ],
+      "avoid": [
+        "Do not assume Typhoid is confirmed from symptoms alone.",
+        "Do not self-start antibiotics, steroids, antivirals, or prescription medicines without clinician advice.",
+        "Do not delay urgent care if symptoms are severe, worsening, or include red flags.",
+        "Do not assume Chicken pox is confirmed from symptoms alone."
+      ],
+      "foodHydration": [
+        "Use normal food and fluids as tolerated unless vomiting, diarrhea, dehydration, or a clinician restriction is present."
+      ]
+    },
+    "medicineGuidance": [],
+    "termExplanations": [
+      "Typhoid: imported disease profile from the local dataset.",
+      "Chicken pox: imported disease profile from the local dataset."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Fever triage and symptom relief",
+        "category": "general",
+        "score": 0.3198,
+        "url": "https://medlineplus.gov/ency/article/003090.htm"
+      },
+      {
+        "title": "Typhoid imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.18807,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Ear infection and ear pain warning signs",
+        "category": "ear-nose-throat",
+        "score": 0.17094,
+        "url": "https://medlineplus.gov/earinfections.html"
+      },
+      {
+        "title": "Chicken pox imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.15304,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Common cold self-care and antibiotic safety",
+        "category": "respiratory",
+        "score": 0.14972,
+        "url": "https://www.cdc.gov/common-cold/treatment/index.html"
+      },
+      {
+        "title": "Tuberculosis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.13416,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "fever correct nothing",
+      "visuals": "None",
+      "allergies": "No known allergies or major medicine restrictions mentioned.",
+      "additional": "None is fever fever",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-e89eb3fb5156a3f5",
+    "createdAt": "2026-06-11T19:25:35.474Z",
+    "patient": {
+      "name": "Bob",
+      "age": "60",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: dizziness yes not working properly in a straight line",
+      "Visible changes described: None",
+      "Age provided: 60",
+      "Additional notes: energy to Bananas"
+    ],
+    "urgency": {
+      "level": "Self-care with monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "General symptom triage",
+        "confidence": "low",
+        "explanation": "The input does not strongly match a specific local rule. A clinician can combine history, examination, vitals, and tests to narrow the cause.",
+        "evidence": [
+          "Input matched Broad or limited symptom description"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Add more details about location, duration, severity, triggers, fever, injury, and medical history."
+      ],
+      "avoid": [
+        "Avoid guessing a diagnosis from one symptom alone."
+      ],
+      "foodHydration": [
+        "Use normal food and fluids as tolerated unless symptoms suggest otherwise."
+      ]
+    },
+    "medicineGuidance": [],
+    "termExplanations": [
+      "Triage: sorting symptoms by urgency and likely care pathway."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Depression and self-harm risk",
+        "category": "mental-health",
+        "score": 0.1026,
+        "url": "https://medlineplus.gov/depression.html"
+      },
+      {
+        "title": "Anxiety and panic symptoms",
+        "category": "mental-health",
+        "score": 0.0527,
+        "url": "https://medlineplus.gov/anxiety.html"
+      },
+      {
+        "title": "Hypertension imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.05181,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Cervical spondylosis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.04909,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Anemia symptoms and causes",
+        "category": "blood",
+        "score": 0.04767,
+        "url": "https://medlineplus.gov/anemia.html"
+      },
+      {
+        "title": "Dehydration and heat illness",
+        "category": "general",
+        "score": 0.04767,
+        "url": "https://medlineplus.gov/dehydration.html"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "dizziness yes not working properly in a straight line",
+      "visuals": "None",
+      "allergies": "",
+      "additional": "energy to Bananas",
+      "fileCount": 0
+    },
+    "onlineResearch": {
+      "attempted": true,
+      "status": "not-added",
+      "added": 0,
+      "queries": [
+        "dizziness yes working properly straight line none energy"
+      ],
+      "notes": [
+        "Online research for \"dizziness yes working properly straight line none energy\" was unavailable: fetch failed"
+      ],
+      "message": "No new trusted topic was added."
+    }
+  },
+  {
+    "id": "report-7255f66cceebd778",
+    "createdAt": "2026-06-11T19:27:37.066Z",
+    "patient": {
+      "name": "Bob",
+      "age": "60",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: call yes nothing",
+      "Visible changes described: None",
+      "Age provided: 60",
+      "Allergies/sensitivities mentioned: No known allergies or major medicine restrictions mentioned.",
+      "Additional notes: energy to Bananas"
+    ],
+    "urgency": {
+      "level": "Self-care with monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "General symptom triage",
+        "confidence": "low",
+        "explanation": "The input does not strongly match a specific local rule. A clinician can combine history, examination, vitals, and tests to narrow the cause.",
+        "evidence": [
+          "Input matched Broad or limited symptom description"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Add more details about location, duration, severity, triggers, fever, injury, and medical history."
+      ],
+      "avoid": [
+        "Avoid guessing a diagnosis from one symptom alone."
+      ],
+      "foodHydration": [
+        "Use normal food and fluids as tolerated unless symptoms suggest otherwise."
+      ]
+    },
+    "medicineGuidance": [],
+    "termExplanations": [
+      "Triage: sorting symptoms by urgency and likely care pathway."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Allergic reaction and anaphylaxis red flags",
+        "category": "allergy",
+        "score": 0.06363,
+        "url": "https://medlineplus.gov/ency/article/000005.htm"
+      },
+      {
+        "title": "NSAID safety warnings",
+        "category": "medicine-safety",
+        "score": 0.05218,
+        "url": "https://www.fda.gov/Drugs/DrugSafety/ucm451800.htm"
+      },
+      {
+        "title": "Heart attack imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.04981,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Diabetes imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.04955,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Hypertension imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.04544,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Depression and self-harm risk",
+        "category": "mental-health",
+        "score": 0.04499,
+        "url": "https://medlineplus.gov/depression.html"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "call yes nothing",
+      "visuals": "None",
+      "allergies": "No known allergies or major medicine restrictions mentioned.",
+      "additional": "energy to Bananas",
+      "fileCount": 0
+    },
+    "onlineResearch": {
+      "attempted": true,
+      "status": "not-added",
+      "added": 0,
+      "queries": [
+        "call yes nothing none energy bananas"
+      ],
+      "notes": [
+        "Online research for \"call yes nothing none energy bananas\" was unavailable: fetch failed"
+      ],
+      "message": "No new trusted topic was added."
+    }
+  },
+  {
+    "id": "report-9bde82181c3b1382",
+    "createdAt": "2026-06-11T20:13:15.250Z",
+    "patient": {
+      "name": "Ram",
+      "age": "30",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: migraine",
+      "Visible changes described: None",
+      "Age provided: 30",
+      "Additional notes: 99"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Headache or migraine-like episode",
+        "confidence": "low",
+        "explanation": "Many headaches are benign, but sudden worst headache, weakness, confusion, stiff neck, fever, head injury, pregnancy, or vision loss need urgent evaluation.",
+        "evidence": [
+          "Input matched migraine"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest in a quiet place, drink fluids, and note triggers.",
+        "Seek emergency care for neurologic red flags or sudden severe onset."
+      ],
+      "avoid": [
+        "Avoid alcohol, dehydration, sleep loss, and known triggers.",
+        "Avoid repeated pain reliever use over many days without medical advice."
+      ],
+      "foodHydration": [
+        "Hydrate; eat a light meal if skipped food may be a trigger.",
+        "Limit caffeine swings if caffeine affects symptoms."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Pain or fever",
+        "medicineName": "Paracetamol / Acetaminophen",
+        "activeContent": "Paracetamol, also called acetaminophen",
+        "commonBrands": [
+          "Tylenol",
+          "Calpol",
+          "Dolo 650",
+          "Crocin"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 3 days before clinician review if symptoms continue.",
+        "safety": "Avoid or ask first with liver disease, heavy alcohol use, allergy, or another product containing paracetamol/acetaminophen."
+      },
+      {
+        "serial": 2,
+        "purpose": "Pain, swelling, or fever",
+        "medicineName": "Ibuprofen",
+        "activeContent": "Ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID)",
+        "commonBrands": [
+          "Advil",
+          "Motrin",
+          "Brufen",
+          "Ibugesic"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 2 days for swelling/pain before clinician review if not improving.",
+        "safety": "Avoid or ask first with NSAID allergy, stomach ulcer/bleeding, kidney disease, blood thinners, uncontrolled blood pressure, heart disease, pregnancy, or dehydration."
+      }
+    ],
+    "termExplanations": [
+      "Migraine: recurrent headache that can cause nausea, light sensitivity, and sometimes aura.",
+      "Aura: temporary neurologic symptoms such as visual changes before a migraine."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Migraine imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.11323,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Headache and migraine red flags",
+        "category": "neurology",
+        "score": 0.0619,
+        "url": "https://medlineplus.gov/headache.html"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "migraine",
+      "visuals": "None",
+      "allergies": "",
+      "additional": "99",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-33faae1555da3a7f",
+    "createdAt": "2026-06-11T20:18:00.202Z",
+    "patient": {
+      "name": "Bob",
+      "age": "35",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: fever",
+      "Visible changes described: None",
+      "Age provided: 35",
+      "Allergies/sensitivities mentioned: allergic to Bananas",
+      "Additional notes: allergic to Bananas"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Viral upper respiratory infection such as common cold",
+        "confidence": "low",
+        "explanation": "Cold-like symptoms are usually viral. Antibiotics do not treat ordinary viral colds, but fever, breathing trouble, chest pain, or high-risk health conditions change the urgency.",
+        "evidence": [
+          "Input matched fever"
+        ]
+      },
+      {
+        "name": "Allergic reaction or irritation",
+        "confidence": "low",
+        "explanation": "Rash, itching, hives, and sneezing can occur with allergies or irritant exposure. Breathing trouble or swelling of the lips, tongue, throat, or face can be an emergency.",
+        "evidence": [
+          "Input matched allergic"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest, drink fluids, and use humidified air or saline spray if available.",
+        "Monitor temperature and breathing.",
+        "Consider testing or medical advice if flu/COVID risk is present.",
+        "Stop exposure to the suspected trigger if known.",
+        "Seek urgent care for breathing difficulty, throat tightness, fainting, or facial/tongue swelling."
+      ],
+      "avoid": [
+        "Avoid unnecessary antibiotics.",
+        "Avoid smoking and heavy exertion while feverish.",
+        "Do not give honey to children under one year.",
+        "Do not retry a medicine or food that caused severe symptoms.",
+        "Avoid scratching irritated skin."
+      ],
+      "foodHydration": [
+        "Warm fluids, soups, and soft foods can help comfort.",
+        "Prioritize water or oral rehydration if sweating or fever is present.",
+        "Use simple foods and fluids if nausea is present.",
+        "Avoid suspected food triggers until reviewed."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Pain or fever",
+        "medicineName": "Paracetamol / Acetaminophen",
+        "activeContent": "Paracetamol, also called acetaminophen",
+        "commonBrands": [
+          "Tylenol",
+          "Calpol",
+          "Dolo 650",
+          "Crocin"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 3 days before clinician review if symptoms continue.",
+        "safety": "Avoid or ask first with liver disease, heavy alcohol use, allergy, or another product containing paracetamol/acetaminophen."
+      },
+      {
+        "serial": 2,
+        "purpose": "Pain, swelling, or fever",
+        "medicineName": "Ibuprofen",
+        "activeContent": "Ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID)",
+        "commonBrands": [
+          "Advil",
+          "Motrin",
+          "Brufen",
+          "Ibugesic"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 2 days for swelling/pain before clinician review if not improving.",
+        "safety": "Avoid or ask first with NSAID allergy, stomach ulcer/bleeding, kidney disease, blood thinners, uncontrolled blood pressure, heart disease, pregnancy, or dehydration."
+      },
+      {
+        "serial": 3,
+        "purpose": "Nasal congestion",
+        "medicineName": "Sterile saline nasal spray/drops",
+        "activeContent": "Sodium chloride sterile saline",
+        "commonBrands": [
+          "Simply Saline",
+          "Nasoclear",
+          "generic saline"
+        ],
+        "reviewWindow": "Can be used for a few days as comfort support; review if severe or prolonged symptoms.",
+        "safety": "Use clean sterile products and avoid sharing bottles."
+      }
+    ],
+    "termExplanations": [
+      "Viral infection: an illness caused by a virus, not treated by antibiotics.",
+      "Congestion: swelling and mucus that block nasal passages.",
+      "Hives: raised itchy welts on the skin.",
+      "Anaphylaxis: a severe allergic reaction that can affect breathing and blood pressure."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Fever triage and symptom relief",
+        "category": "general",
+        "score": 0.15076,
+        "url": "https://medlineplus.gov/ency/article/003090.htm"
+      },
+      {
+        "title": "Allergic reaction and anaphylaxis red flags",
+        "category": "allergy",
+        "score": 0.13834,
+        "url": "https://medlineplus.gov/ency/article/000005.htm"
+      },
+      {
+        "title": "Typhoid imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.08311,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Ear infection and ear pain warning signs",
+        "category": "ear-nose-throat",
+        "score": 0.08058,
+        "url": "https://medlineplus.gov/earinfections.html"
+      },
+      {
+        "title": "Common cold self-care and antibiotic safety",
+        "category": "respiratory",
+        "score": 0.07058,
+        "url": "https://www.cdc.gov/common-cold/treatment/index.html"
+      },
+      {
+        "title": "Chicken pox imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.06659,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "fever",
+      "visuals": "None",
+      "allergies": "allergic to Bananas",
+      "additional": "allergic to Bananas",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-a5a8cc886add2c88",
+    "createdAt": "2026-06-12T17:30:06.301Z",
+    "patient": {
+      "name": "Subramanya Math",
+      "age": "20",
+      "sex": "Male"
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: cold, cough, and fever",
+      "Visible changes described: nothing",
+      "Age provided: 20",
+      "Allergies/sensitivities mentioned: nope",
+      "Current medicines mentioned: nope",
+      "Additional notes: allergic to bananas "
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Viral upper respiratory infection such as common cold",
+        "confidence": "low-to-medium",
+        "explanation": "Cold-like symptoms are usually viral. Antibiotics do not treat ordinary viral colds, but fever, breathing trouble, chest pain, or high-risk health conditions change the urgency.",
+        "evidence": [
+          "Input matched cold",
+          "Input matched cough",
+          "Input matched fever"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest, drink fluids, and use humidified air or saline spray if available.",
+        "Monitor temperature and breathing.",
+        "Consider testing or medical advice if flu/COVID risk is present."
+      ],
+      "avoid": [
+        "Avoid unnecessary antibiotics.",
+        "Avoid smoking and heavy exertion while feverish.",
+        "Do not give honey to children under one year."
+      ],
+      "foodHydration": [
+        "Warm fluids, soups, and soft foods can help comfort.",
+        "Prioritize water or oral rehydration if sweating or fever is present."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Pain or fever",
+        "medicineName": "Paracetamol / Acetaminophen",
+        "activeContent": "Paracetamol, also called acetaminophen",
+        "commonBrands": [
+          "Tylenol",
+          "Calpol",
+          "Dolo 650",
+          "Crocin"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 3 days before clinician review if symptoms continue.",
+        "safety": "Avoid or ask first with liver disease, heavy alcohol use, allergy, or another product containing paracetamol/acetaminophen."
+      },
+      {
+        "serial": 2,
+        "purpose": "Pain, swelling, or fever",
+        "medicineName": "Ibuprofen",
+        "activeContent": "Ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID)",
+        "commonBrands": [
+          "Advil",
+          "Motrin",
+          "Brufen",
+          "Ibugesic"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 2 days for swelling/pain before clinician review if not improving.",
+        "safety": "Avoid or ask first with NSAID allergy, stomach ulcer/bleeding, kidney disease, blood thinners, uncontrolled blood pressure, heart disease, pregnancy, or dehydration."
+      },
+      {
+        "serial": 3,
+        "purpose": "Nasal congestion",
+        "medicineName": "Sterile saline nasal spray/drops",
+        "activeContent": "Sodium chloride sterile saline",
+        "commonBrands": [
+          "Simply Saline",
+          "Nasoclear",
+          "generic saline"
+        ],
+        "reviewWindow": "Can be used for a few days as comfort support; review if severe or prolonged symptoms.",
+        "safety": "Use clean sterile products and avoid sharing bottles."
+      }
+    ],
+    "termExplanations": [
+      "Viral infection: an illness caused by a virus, not treated by antibiotics.",
+      "Congestion: swelling and mucus that block nasal passages."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Fever triage and symptom relief",
+        "category": "general",
+        "score": 0.125,
+        "url": "https://medlineplus.gov/ency/article/003090.htm"
+      },
+      {
+        "title": "Common cold self-care and antibiotic safety",
+        "category": "respiratory",
+        "score": 0.11704,
+        "url": "https://www.cdc.gov/common-cold/treatment/index.html"
+      },
+      {
+        "title": "Common Cold imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.097,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Urinary tract infection symptoms and escalation",
+        "category": "urinary",
+        "score": 0.07809,
+        "url": "https://medlineplus.gov/urinarytractinfections.html"
+      },
+      {
+        "title": "Sinusitis and nasal congestion",
+        "category": "ear-nose-throat",
+        "score": 0.07715,
+        "url": "https://medlineplus.gov/sinusitis.html"
+      },
+      {
+        "title": "Bronchial Asthma imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.07715,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "cold, cough, and fever",
+      "visuals": "nothing",
+      "allergies": "nope",
+      "additional": "allergic to bananas ",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-b3c3aac89cb4c8d9",
+    "createdAt": "2026-06-13T04:41:07.277Z",
+    "patient": {
+      "name": "Bob",
+      "age": "20",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: I am feeling pain my stomach",
+      "Visible changes described: None",
+      "Age provided: 20",
+      "Allergies/sensitivities mentioned: No known allergies or major medicine restrictions mentioned.",
+      "Additional notes: None"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Osteoarthristis pattern",
+        "confidence": "low-to-medium",
+        "explanation": "Disease: Osteoarthristis.",
+        "evidence": [
+          "Imported disease profile matched local vector search score 0.16443"
+        ]
+      },
+      {
+        "name": "GERD pattern",
+        "confidence": "low-to-medium",
+        "explanation": "Disease: GERD.",
+        "evidence": [
+          "Imported disease profile matched local vector search score 0.15936"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Use the report as a discussion aid and confirm the diagnosis with a qualified clinician."
+      ],
+      "avoid": [
+        "Do not assume Osteoarthristis is confirmed from symptoms alone.",
+        "Do not self-start antibiotics, steroids, antivirals, or prescription medicines without clinician advice.",
+        "Do not delay urgent care if symptoms are severe, worsening, or include red flags.",
+        "Do not assume GERD is confirmed from symptoms alone."
+      ],
+      "foodHydration": [
+        "Use normal food and fluids as tolerated unless vomiting, diarrhea, dehydration, or a clinician restriction is present."
+      ]
+    },
+    "medicineGuidance": [],
+    "termExplanations": [
+      "Osteoarthristis: imported disease profile from the local dataset.",
+      "GERD: imported disease profile from the local dataset."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Osteoarthristis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.16443,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "GERD imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.15936,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "NSAID safety warnings",
+        "category": "medicine-safety",
+        "score": 0.15085,
+        "url": "https://www.fda.gov/Drugs/DrugSafety/ucm451800.htm"
+      },
+      {
+        "title": "Chest pain emergency triage",
+        "category": "cardiac",
+        "score": 0.12599,
+        "url": "https://medlineplus.gov/ency/article/003079.htm"
+      },
+      {
+        "title": "Cervical spondylosis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.12446,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "GERD heartburn and chest pain caution",
+        "category": "digestive",
+        "score": 0.12227,
+        "url": "https://medlineplus.gov/gerd.html"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "I am feeling pain my stomach",
+      "visuals": "None",
+      "allergies": "No known allergies or major medicine restrictions mentioned.",
+      "additional": "None",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-1b9a557e00e66362",
+    "createdAt": "2026-06-13T04:49:33.863Z",
+    "patient": {
+      "name": "Suraj Bob",
+      "age": "20",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: feeling paining stomach",
+      "Visible changes described: None",
+      "Age provided: 20",
+      "Allergies/sensitivities mentioned: No known allergies or major medicine restrictions mentioned.",
+      "Additional notes: None"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "General symptom triage",
+        "confidence": "low",
+        "explanation": "The input does not strongly match a specific local rule. A clinician can combine history, examination, vitals, and tests to narrow the cause.",
+        "evidence": [
+          "Input matched Broad or limited symptom description"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Add more details about location, duration, severity, triggers, fever, injury, and medical history."
+      ],
+      "avoid": [
+        "Avoid guessing a diagnosis from one symptom alone."
+      ],
+      "foodHydration": [
+        "Use normal food and fluids as tolerated unless symptoms suggest otherwise."
+      ]
+    },
+    "medicineGuidance": [],
+    "termExplanations": [
+      "Triage: sorting symptoms by urgency and likely care pathway."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "NSAID safety warnings",
+        "category": "medicine-safety",
+        "score": 0.09716,
+        "url": "https://www.fda.gov/Drugs/DrugSafety/ucm451800.htm"
+      },
+      {
+        "title": "GERD imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.07698,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Drug Reaction imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.06283,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Allergic reaction and anaphylaxis red flags",
+        "category": "allergy",
+        "score": 0.05923,
+        "url": "https://medlineplus.gov/ency/article/000005.htm"
+      },
+      {
+        "title": "Peptic ulcer diseae imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.05561,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Alcoholic hepatitis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.05085,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "feeling paining stomach",
+      "visuals": "None",
+      "allergies": "No known allergies or major medicine restrictions mentioned.",
+      "additional": "None",
+      "fileCount": 0
+    },
+    "onlineResearch": {
+      "attempted": true,
+      "status": "not-added",
+      "added": 0,
+      "queries": [
+        "feeling paining stomach none none"
+      ],
+      "notes": [
+        "No trusted MedlinePlus topic found for \"feeling paining stomach none none\"."
+      ],
+      "message": "No new trusted topic was added."
+    }
+  },
+  {
+    "id": "report-8ee732247e948a6f",
+    "createdAt": "2026-06-13T04:50:51.885Z",
+    "patient": {
+      "name": "Subramanya Math",
+      "age": "20",
+      "sex": "Male"
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: fever",
+      "Visible changes described: no bruises",
+      "Age provided: 20",
+      "Allergies/sensitivities mentioned: no",
+      "Current medicines mentioned: no",
+      "Additional notes: no"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Viral upper respiratory infection such as common cold",
+        "confidence": "low",
+        "explanation": "Cold-like symptoms are usually viral. Antibiotics do not treat ordinary viral colds, but fever, breathing trouble, chest pain, or high-risk health conditions change the urgency.",
+        "evidence": [
+          "Input matched fever"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest, drink fluids, and use humidified air or saline spray if available.",
+        "Monitor temperature and breathing.",
+        "Consider testing or medical advice if flu/COVID risk is present."
+      ],
+      "avoid": [
+        "Avoid unnecessary antibiotics.",
+        "Avoid smoking and heavy exertion while feverish.",
+        "Do not give honey to children under one year."
+      ],
+      "foodHydration": [
+        "Warm fluids, soups, and soft foods can help comfort.",
+        "Prioritize water or oral rehydration if sweating or fever is present."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Pain or fever",
+        "medicineName": "Paracetamol / Acetaminophen",
+        "activeContent": "Paracetamol, also called acetaminophen",
+        "commonBrands": [
+          "Tylenol",
+          "Calpol",
+          "Dolo 650",
+          "Crocin"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 3 days before clinician review if symptoms continue.",
+        "safety": "Avoid or ask first with liver disease, heavy alcohol use, allergy, or another product containing paracetamol/acetaminophen."
+      },
+      {
+        "serial": 2,
+        "purpose": "Pain, swelling, or fever",
+        "medicineName": "Ibuprofen",
+        "activeContent": "Ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID)",
+        "commonBrands": [
+          "Advil",
+          "Motrin",
+          "Brufen",
+          "Ibugesic"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 2 days for swelling/pain before clinician review if not improving.",
+        "safety": "Avoid or ask first with NSAID allergy, stomach ulcer/bleeding, kidney disease, blood thinners, uncontrolled blood pressure, heart disease, pregnancy, or dehydration."
+      },
+      {
+        "serial": 3,
+        "purpose": "Nasal congestion",
+        "medicineName": "Sterile saline nasal spray/drops",
+        "activeContent": "Sodium chloride sterile saline",
+        "commonBrands": [
+          "Simply Saline",
+          "Nasoclear",
+          "generic saline"
+        ],
+        "reviewWindow": "Can be used for a few days as comfort support; review if severe or prolonged symptoms.",
+        "safety": "Use clean sterile products and avoid sharing bottles."
+      }
+    ],
+    "termExplanations": [
+      "Viral infection: an illness caused by a virus, not treated by antibiotics.",
+      "Congestion: swelling and mucus that block nasal passages."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Fever triage and symptom relief",
+        "category": "general",
+        "score": 0.22361,
+        "url": "https://medlineplus.gov/ency/article/003090.htm"
+      },
+      {
+        "title": "Urinary tract infection symptoms and escalation",
+        "category": "urinary",
+        "score": 0.13969,
+        "url": "https://medlineplus.gov/urinarytractinfections.html"
+      },
+      {
+        "title": "Typhoid imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.12328,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Ear infection and ear pain warning signs",
+        "category": "ear-nose-throat",
+        "score": 0.11952,
+        "url": "https://medlineplus.gov/earinfections.html"
+      },
+      {
+        "title": "Common cold self-care and antibiotic safety",
+        "category": "respiratory",
+        "score": 0.10468,
+        "url": "https://www.cdc.gov/common-cold/treatment/index.html"
+      },
+      {
+        "title": "Chicken pox imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.09877,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "fever",
+      "visuals": "no bruises",
+      "allergies": "no",
+      "additional": "no",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-5f7c2891f29ac52b",
+    "createdAt": "2026-06-13T04:53:12.933Z",
+    "patient": {
+      "name": "Subramanya Math",
+      "age": "20",
+      "sex": "Male"
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: fever since 2 days",
+      "Visible changes described: tiring body",
+      "Age provided: 20",
+      "Allergies/sensitivities mentioned: no",
+      "Current medicines mentioned: dolo 650",
+      "Additional notes: no allergies"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Viral upper respiratory infection such as common cold",
+        "confidence": "low",
+        "explanation": "Cold-like symptoms are usually viral. Antibiotics do not treat ordinary viral colds, but fever, breathing trouble, chest pain, or high-risk health conditions change the urgency.",
+        "evidence": [
+          "Input matched fever"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest, drink fluids, and use humidified air or saline spray if available.",
+        "Monitor temperature and breathing.",
+        "Consider testing or medical advice if flu/COVID risk is present."
+      ],
+      "avoid": [
+        "Avoid unnecessary antibiotics.",
+        "Avoid smoking and heavy exertion while feverish.",
+        "Do not give honey to children under one year."
+      ],
+      "foodHydration": [
+        "Warm fluids, soups, and soft foods can help comfort.",
+        "Prioritize water or oral rehydration if sweating or fever is present."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Pain or fever",
+        "medicineName": "Paracetamol / Acetaminophen",
+        "activeContent": "Paracetamol, also called acetaminophen",
+        "commonBrands": [
+          "Tylenol",
+          "Calpol",
+          "Dolo 650",
+          "Crocin"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 3 days before clinician review if symptoms continue.",
+        "safety": "Avoid or ask first with liver disease, heavy alcohol use, allergy, or another product containing paracetamol/acetaminophen."
+      },
+      {
+        "serial": 2,
+        "purpose": "Pain, swelling, or fever",
+        "medicineName": "Ibuprofen",
+        "activeContent": "Ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID)",
+        "commonBrands": [
+          "Advil",
+          "Motrin",
+          "Brufen",
+          "Ibugesic"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 2 days for swelling/pain before clinician review if not improving.",
+        "safety": "Avoid or ask first with NSAID allergy, stomach ulcer/bleeding, kidney disease, blood thinners, uncontrolled blood pressure, heart disease, pregnancy, or dehydration."
+      },
+      {
+        "serial": 3,
+        "purpose": "Nasal congestion",
+        "medicineName": "Sterile saline nasal spray/drops",
+        "activeContent": "Sodium chloride sterile saline",
+        "commonBrands": [
+          "Simply Saline",
+          "Nasoclear",
+          "generic saline"
+        ],
+        "reviewWindow": "Can be used for a few days as comfort support; review if severe or prolonged symptoms.",
+        "safety": "Use clean sterile products and avoid sharing bottles."
+      }
+    ],
+    "termExplanations": [
+      "Viral infection: an illness caused by a virus, not treated by antibiotics.",
+      "Congestion: swelling and mucus that block nasal passages."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Fever triage and symptom relief",
+        "category": "general",
+        "score": 0.18844,
+        "url": "https://medlineplus.gov/ency/article/003090.htm"
+      },
+      {
+        "title": "Chicken pox imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.11654,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Urinary tract infection symptoms and escalation",
+        "category": "urinary",
+        "score": 0.09418,
+        "url": "https://medlineplus.gov/urinarytractinfections.html"
+      },
+      {
+        "title": "Sinusitis and nasal congestion",
+        "category": "ear-nose-throat",
+        "score": 0.09305,
+        "url": "https://medlineplus.gov/sinusitis.html"
+      },
+      {
+        "title": "COVID-19 and viral respiratory symptoms",
+        "category": "respiratory",
+        "score": 0.08989,
+        "url": "https://www.cdc.gov/covid/signs-symptoms/index.html"
+      },
+      {
+        "title": "Typhoid imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.08311,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "fever since 2 days",
+      "visuals": "tiring body",
+      "allergies": "no",
+      "additional": "no allergies",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-b7870409abbe59b5",
+    "createdAt": "2026-06-25T14:51:57.255Z",
+    "patient": {
+      "name": "Asha",
+      "age": "43",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: knee pain",
+      "Visible changes described: None",
+      "Age provided: 43",
+      "Allergies/sensitivities mentioned: allergic 2 shops",
+      "Additional notes: allergic 2 shops"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Osteoarthristis pattern",
+        "confidence": "low-to-medium",
+        "explanation": "Disease: Osteoarthristis.",
+        "evidence": [
+          "Input matched imported symptom knee pain"
+        ]
+      },
+      {
+        "name": "Allergic reaction or irritation",
+        "confidence": "low",
+        "explanation": "Rash, itching, hives, and sneezing can occur with allergies or irritant exposure. Breathing trouble or swelling of the lips, tongue, throat, or face can be an emergency.",
+        "evidence": [
+          "Input matched allergic"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Use the report as a discussion aid and confirm the diagnosis with a qualified clinician.",
+        "Stop exposure to the suspected trigger if known.",
+        "Seek urgent care for breathing difficulty, throat tightness, fainting, or facial/tongue swelling.",
+        "Document the suspected trigger and timing."
+      ],
+      "avoid": [
+        "Do not assume Osteoarthristis is confirmed from symptoms alone.",
+        "Do not self-start antibiotics, steroids, antivirals, or prescription medicines without clinician advice.",
+        "Do not delay urgent care if symptoms are severe, worsening, or include red flags.",
+        "Do not retry a medicine or food that caused severe symptoms.",
+        "Avoid scratching irritated skin."
+      ],
+      "foodHydration": [
+        "Use normal food and fluids as tolerated unless vomiting, diarrhea, dehydration, or a clinician restriction is present.",
+        "Use simple foods and fluids if nausea is present.",
+        "Avoid suspected food triggers until reviewed."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Allergy symptoms",
+        "medicineName": "Cetirizine",
+        "activeContent": "Cetirizine hydrochloride, second-generation antihistamine",
+        "commonBrands": [
+          "Zyrtec",
+          "Cetzine",
+          "Okacet",
+          "Alerid"
+        ],
+        "reviewWindow": "Often used short-term for 1 to 3 days for simple allergy symptoms; review if symptoms persist or worsen.",
+        "safety": "Can cause drowsiness in some people. Ask a clinician for young children, pregnancy, kidney disease, or complex medicine lists."
+      }
+    ],
+    "termExplanations": [
+      "Osteoarthristis: imported disease profile from the local dataset.",
+      "Hives: raised itchy welts on the skin.",
+      "Anaphylaxis: a severe allergic reaction that can affect breathing and blood pressure."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Osteoarthristis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.19733,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Chest pain emergency triage",
+        "category": "cardiac",
+        "score": 0.13608,
+        "url": "https://medlineplus.gov/ency/article/003079.htm"
+      },
+      {
+        "title": "Allergic reaction and anaphylaxis red flags",
+        "category": "allergy",
+        "score": 0.13245,
+        "url": "https://medlineplus.gov/ency/article/000005.htm"
+      },
+      {
+        "title": "GERD heartburn and chest pain caution",
+        "category": "digestive",
+        "score": 0.13207,
+        "url": "https://medlineplus.gov/gerd.html"
+      },
+      {
+        "title": "Dengue imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.11701,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Cervical spondylosis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.11203,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "knee pain",
+      "visuals": "None",
+      "allergies": "allergic 2 shops",
+      "additional": "allergic 2 shops",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-c651328ca2c824ec",
+    "createdAt": "2026-06-25T14:55:53.993Z",
+    "patient": {
+      "name": "Asha",
+      "age": "43",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: knee pain",
+      "Visible changes described: None",
+      "Age provided: 43",
+      "Allergies/sensitivities mentioned: No known allergies or major medicine restrictions mentioned.",
+      "Additional notes: None"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Osteoarthristis pattern",
+        "confidence": "low-to-medium",
+        "explanation": "Disease: Osteoarthristis.",
+        "evidence": [
+          "Input matched imported symptom knee pain"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Use the report as a discussion aid and confirm the diagnosis with a qualified clinician."
+      ],
+      "avoid": [
+        "Do not assume Osteoarthristis is confirmed from symptoms alone.",
+        "Do not self-start antibiotics, steroids, antivirals, or prescription medicines without clinician advice.",
+        "Do not delay urgent care if symptoms are severe, worsening, or include red flags."
+      ],
+      "foodHydration": [
+        "Use normal food and fluids as tolerated unless vomiting, diarrhea, dehydration, or a clinician restriction is present."
+      ]
+    },
+    "medicineGuidance": [],
+    "termExplanations": [
+      "Osteoarthristis: imported disease profile from the local dataset."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Osteoarthristis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.20855,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Chest pain emergency triage",
+        "category": "cardiac",
+        "score": 0.13074,
+        "url": "https://medlineplus.gov/ency/article/003079.htm"
+      },
+      {
+        "title": "Cervical spondylosis imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.12916,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "GERD heartburn and chest pain caution",
+        "category": "digestive",
+        "score": 0.12689,
+        "url": "https://medlineplus.gov/gerd.html"
+      },
+      {
+        "title": "Dengue imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.12491,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Dimorphic hemmorhoids(piles) imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.1172,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "knee pain",
+      "visuals": "None",
+      "allergies": "No known allergies or major medicine restrictions mentioned.",
+      "additional": "None",
+      "fileCount": 0
+    }
+  },
+  {
+    "id": "report-f584dd4f361980f4",
+    "createdAt": "2026-07-18T18:19:11.972Z",
+    "patient": {
+      "name": "Sam",
+      "age": "35",
+      "sex": ""
+    },
+    "source": "manual-intake",
+    "summary": [
+      "Main symptoms: fever",
+      "Visible changes described: now",
+      "Age provided: 35",
+      "Additional notes: Nan Nan"
+    ],
+    "urgency": {
+      "level": "Mild / routine monitoring",
+      "reasons": [
+        "No emergency red-flag phrase was detected in the provided text."
+      ]
+    },
+    "possibleConditions": [
+      {
+        "name": "Viral upper respiratory infection such as common cold",
+        "confidence": "low",
+        "explanation": "Cold-like symptoms are usually viral. Antibiotics do not treat ordinary viral colds, but fever, breathing trouble, chest pain, or high-risk health conditions change the urgency.",
+        "evidence": [
+          "Input matched fever"
+        ]
+      }
+    ],
+    "carePlan": {
+      "doNow": [
+        "Rest, drink fluids, and use humidified air or saline spray if available.",
+        "Monitor temperature and breathing.",
+        "Consider testing or medical advice if flu/COVID risk is present."
+      ],
+      "avoid": [
+        "Avoid unnecessary antibiotics.",
+        "Avoid smoking and heavy exertion while feverish.",
+        "Do not give honey to children under one year."
+      ],
+      "foodHydration": [
+        "Warm fluids, soups, and soft foods can help comfort.",
+        "Prioritize water or oral rehydration if sweating or fever is present."
+      ]
+    },
+    "medicineGuidance": [
+      {
+        "serial": 1,
+        "purpose": "Pain or fever",
+        "medicineName": "Paracetamol / Acetaminophen",
+        "activeContent": "Paracetamol, also called acetaminophen",
+        "commonBrands": [
+          "Tylenol",
+          "Calpol",
+          "Dolo 650",
+          "Crocin"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 3 days before clinician review if symptoms continue.",
+        "safety": "Avoid or ask first with liver disease, heavy alcohol use, allergy, or another product containing paracetamol/acetaminophen."
+      },
+      {
+        "serial": 2,
+        "purpose": "Pain, swelling, or fever",
+        "medicineName": "Ibuprofen",
+        "activeContent": "Ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID)",
+        "commonBrands": [
+          "Advil",
+          "Motrin",
+          "Brufen",
+          "Ibugesic"
+        ],
+        "reviewWindow": "Short-term only, usually 1 to 2 days for swelling/pain before clinician review if not improving.",
+        "safety": "Avoid or ask first with NSAID allergy, stomach ulcer/bleeding, kidney disease, blood thinners, uncontrolled blood pressure, heart disease, pregnancy, or dehydration."
+      },
+      {
+        "serial": 3,
+        "purpose": "Nasal congestion",
+        "medicineName": "Sterile saline nasal spray/drops",
+        "activeContent": "Sodium chloride sterile saline",
+        "commonBrands": [
+          "Simply Saline",
+          "Nasoclear",
+          "generic saline"
+        ],
+        "reviewWindow": "Can be used for a few days as comfort support; review if severe or prolonged symptoms.",
+        "safety": "Use clean sterile products and avoid sharing bottles."
+      }
+    ],
+    "termExplanations": [
+      "Viral infection: an illness caused by a virus, not treated by antibiotics.",
+      "Congestion: swelling and mucus that block nasal passages."
+    ],
+    "knowledgeUsed": [
+      {
+        "title": "Fever triage and symptom relief",
+        "category": "general",
+        "score": 0.18898,
+        "url": "https://medlineplus.gov/ency/article/003090.htm"
+      },
+      {
+        "title": "Typhoid imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.10419,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Ear infection and ear pain warning signs",
+        "category": "ear-nose-throat",
+        "score": 0.10102,
+        "url": "https://medlineplus.gov/earinfections.html"
+      },
+      {
+        "title": "Common cold self-care and antibiotic safety",
+        "category": "respiratory",
+        "score": 0.08847,
+        "url": "https://www.cdc.gov/common-cold/treatment/index.html"
+      },
+      {
+        "title": "Chicken pox imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.08348,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      },
+      {
+        "title": "Dengue imported disease profile",
+        "category": "external-disease-dataset",
+        "score": 0.06809,
+        "url": "https://github.com/sumeshverse/medical-ai-project"
+      }
+    ],
+    "rawInput": {
+      "symptoms": "fever",
+      "visuals": "now",
+      "allergies": "",
+      "additional": "Nan Nan",
+      "fileCount": 0
+    }
+  }
+]

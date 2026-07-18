@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Training Mode - DOC</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script defer src="/js/shared.js"></script>
+    <script defer src="/js/training.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/"><span class="brand-mark">D</span><span>DOC <small>training</small></span></a>
+      <button class="menu-button" type="button" data-menu-open aria-label="Open menu"><span class="menu-lines" aria-hidden="true"></span></button>
+    </header>
+    <aside class="menu-panel" data-menu-panel>
+      <div class="menu-head">
+        <a class="brand" href="/"><span class="brand-mark">D</span><span>DOC</span></a>
+        <button class="icon-button" type="button" data-menu-close aria-label="Close menu">x</button>
+      </div>
+      <nav class="menu-nav">
+        <a href="/chat.html">Chat with DOC <span>voice</span></a>
+        <a href="/app.html">Get Started <span>intake</span></a>
+        <a href="/admin-login.html">Training Mode <span>admin</span></a>
+        <a href="/trained-data.html" data-admin-only hidden>Show Trained Data <span>vectors</span></a>
+      </nav>
+    </aside>
+
+    <main class="page">
+      <div class="page-title">
+        <h1>Training Mode</h1>
+        <p>Upload datasets, disease notes, CSV files, PDFs, report text, and supporting files. DOC extracts readable text, tokenizes it, builds vectors, checks duplicates, and rejects unsafe false claims.</p>
+      </div>
+
+      <section id="trainingSummary" class="summary-grid"></section>
+
+      <section class="panel" style="margin-top: 20px;">
+        <h2>Add Training Data</h2>
+        <form id="trainingForm">
+          <div class="form-grid">
+            <div class="field">
+              <label for="title">Dataset title</label>
+              <input id="title" name="title" required placeholder="Example: Fracture care protocol">
+            </div>
+            <div class="field">
+              <label for="category">Category</label>
+              <input id="category" name="category" required placeholder="Example: injury">
+            </div>
+            <div class="field full">
+              <label for="trainingFiles">Upload files</label>
+              <input id="trainingFiles" name="trainingFiles" type="file" multiple required accept=".txt,.md,.csv,.json,.data,.vec,.vector,.pdf,.xlsx,.xls,.doc,.docx,image/*">
+              <small>Text, CSV, JSON, and labeled vector .data files are parsed directly. PDF, spreadsheet, document, and image uploads use best-effort readable text extraction in this prototype.</small>
+            </div>
+          </div>
+          <div class="training-actions">
+            <button class="button" type="submit">Train From Upload</button>
+            <a class="button secondary" href="/trained-data.html">Show Trained Data</a>
+          </div>
+          <div id="trainingStatus" class="status"></div>
+        </form>
+      </section>
+
+      <section class="section" style="padding-left: 0; padding-right: 0;">
+        <div class="section-head">
+          <h2>Training Buckets</h2>
+          <p>Manual and seed data power report retrieval immediately. User-interaction corrections are saved separately for review so random feedback does not poison the medical store.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3>Manual/self trained</h3>
+            <p>Curated seed knowledge and admin uploads are searchable by token vectors.</p>
+          </article>
+          <article class="feature">
+            <h3>User interacted</h3>
+            <p>Feedback and corrections are stored as pending review data before full trust.</p>
+          </article>
+          <article class="feature">
+            <h3>Duplicate handling</h3>
+            <p>Very similar data is ignored unless it adds new meaningful tokens.</p>
+          </article>
+          <article class="feature">
+            <h3>False data guard</h3>
+            <p>Known dangerous claims are rejected with a message and not added.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <div class="net-banner">Internet connection appears unavailable. Connect Wi-Fi or mobile data before using web-backed training or deployment features.</div>
+  </body>
+</html>

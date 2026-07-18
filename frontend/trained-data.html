@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trained Data - DOC</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script defer src="/js/shared.js"></script>
+    <script defer src="/js/trained-data.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/"><span class="brand-mark">D</span><span>DOC <small>trained data</small></span></a>
+      <button class="menu-button" type="button" data-menu-open aria-label="Open menu"><span class="menu-lines" aria-hidden="true"></span></button>
+    </header>
+    <aside class="menu-panel" data-menu-panel>
+      <div class="menu-head">
+        <a class="brand" href="/"><span class="brand-mark">D</span><span>DOC</span></a>
+        <button class="icon-button" type="button" data-menu-close aria-label="Close menu">x</button>
+      </div>
+      <nav class="menu-nav">
+        <a href="/chat.html">Chat with DOC <span>voice</span></a>
+        <a href="/app.html">Get Started <span>intake</span></a>
+        <a href="/admin-login.html">Training Mode <span>admin</span></a>
+        <a href="/trained-data.html" data-admin-only hidden>Show Trained Data <span>vectors</span></a>
+      </nav>
+    </aside>
+
+    <main class="page">
+      <div class="page-title">
+        <h1>Show Trained Data</h1>
+        <p>Inspect what DOC has learned. The stored text is shown with top tokens because vectors cannot truly be reversed back into the original document.</p>
+      </div>
+      <div class="tabs">
+        <button class="tab active" type="button" data-source="manual">Manual and self trained</button>
+        <button class="tab" type="button" data-source="user">User interaction trained</button>
+      </div>
+      <section id="dataSummary" class="summary-grid"></section>
+      <section id="trainingList" class="training-list"></section>
+    </main>
+    <div class="net-banner">Internet connection appears unavailable. Connect Wi-Fi or mobile data before using web-backed training or deployment features.</div>
+  </body>
+</html>

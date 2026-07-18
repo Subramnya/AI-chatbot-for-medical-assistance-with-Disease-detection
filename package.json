@@ -1,0 +1,24 @@
+{
+  "name": "doc-medical-assistant",
+  "version": "0.1.0",
+  "description": "Local-first AI chartboard prototype for medical triage, report generation, and training data ingestion.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "test": "node backend/tests/smoke.test.js",
+    "import:medical-dataset": "node backend/scripts/importMedicalDataset.js"
+  },
+  "keywords": [
+    "medical-assistant",
+    "triage",
+    "local-ai",
+    "rag",
+    "speech-assistant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

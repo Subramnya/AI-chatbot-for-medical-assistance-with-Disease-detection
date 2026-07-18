@@ -1,0 +1,14 @@
+node_modules/
+.env
+.DS_Store
+Thumbs.db
+
+# Local runtime data. Keep seed files in Git, but not private uploads/reports.
+uploads/**
+database/reports.json
+database/sessions.json
+database/training/manual-knowledge.json
+database/training/user-learning.json
+database/training/audit-log.json
+!uploads/.gitkeep
+!database/training/.gitkeep
